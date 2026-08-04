@@ -133,7 +133,7 @@ a {
 
 @layer components {
   .heading {
-    @apply text-4xl font-medium leading-[0.98] tracking-tighter sm: text-5xl lg:text-[76px];
+    @apply text-4xl font-medium leading-[0.98] tracking-tighter sm:text-5xl lg:text-[76px];
   }
 
   .badge {
@@ -141,7 +141,7 @@ a {
   }
 
   .text {
-    @apply text-base leading-relaxed text-grey md: text-lg;
+    @apply text-base leading-relaxed text-grey md:text-lg;
   }
 }
 
