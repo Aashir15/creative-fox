@@ -133,7 +133,7 @@ a {
 
 @layer components {
   .heading {
-    @apply text-4xl font-medium leading-[0.98] tracking-tighter sm:text-5xl lg:text-[76px];
+    @apply text-4xl font-medium leading-[0.98] tracking-tighter sm: text-5xl lg:text-[76px];
   }
 
   .badge {
@@ -141,7 +141,7 @@ a {
   }
 
   .text {
-    @apply text-base leading-relaxed text-grey md:text-lg;
+    @apply text-base leading-relaxed text-grey md: text-lg;
   }
 }
 
@@ -162,18 +162,18 @@ a {
 
 /* Thumb */
 ::-webkit-scrollbar-thumb {
-  background: linear-gradient(180deg, #3b82f6, #8b5cf6);
+  background: linear-gradient(180deg, #fd026a, #fd026a);
   border-radius: 20px;
-  border: 2px solid #0f172a;
+  border: 2px solid #ffffff;
   transition: all 0.3s ease;
 }
 
 /* Hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: linear-gradient(180deg, #2563eb, #7c3aed);
+  background: linear-gradient(180deg, #fd026a, #fd026a);
 }
 
 /* Corner */
 ::-webkit-scrollbar-corner {
-  background: #0f172a;
+  background: #ffffff;
 }
