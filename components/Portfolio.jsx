@@ -172,7 +172,7 @@ function ProjectCard({
                         <div
                             ref={cursorRef}
                             className="
-                pointer-events-none absolute left-0 top-0 z-20
+                pointer-events-none absolute left-0 top-0 z-22
                 hidden h-24 w-24 -translate-x-1/2 -translate-y-1/2
                 items-center justify-center rounded-full
                 bg-pink text-center text-xs font-semibold
@@ -408,7 +408,7 @@ function ProjectLightbox({
             aria-modal="true"
             aria-label={`${project.title} project preview`}
             className="
-        fixed inset-0 z-9
+        fixed inset-0 z-22
         flex items-center justify-center
         bg-black/60 p-2
         opacity-0 backdrop-blur-xl
@@ -433,7 +433,7 @@ function ProjectLightbox({
                     onClick={closeLightbox}
                     aria-label="Close project"
                     className="
-            absolute right-4 top-4 z-50
+            absolute right-4 top-4 z-22
             flex h-11 w-11 items-center justify-center
             rounded-full border border-white/30
             bg-black/35 text-white
