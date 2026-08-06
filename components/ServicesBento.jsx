@@ -1,15 +1,45 @@
 "use client";
 
 import Link from "next/link";
-import { ArrowUpRight } from "lucide-react";
 import { useRef } from "react";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { useGSAP } from "@gsap/react";
 
+gsap.registerPlugin(useGSAP, ScrollTrigger);
+
+import {
+    Braces,
+    Palette,
+    Megaphone,
+    ArrowUpRight,
+} from "lucide-react";
+
+
 import { services } from "../data/services";
 
-gsap.registerPlugin(useGSAP, ScrollTrigger);
+const iconMap = {
+    Development: Braces,
+    Design: Palette,
+    "Digital Marketing": Megaphone,
+};
+
+const featuredServices = [
+    "cms-website-development",
+    "ui-ux-design",
+];
+
+const homeServices = services.map((service) => ({
+    id: service.id,
+    title: service.title,
+    description: service.description,
+    href: `/services/${service.slug}`,
+    icon: iconMap[service.category],
+    className: featuredServices.includes(service.slug)
+        ? "md:col-span-2 md:row-span-2"
+        : "md:col-span-1",
+}));
+
 
 function ServiceCard({ service }) {
     const cardRef = useRef(null);
@@ -257,7 +287,7 @@ export default function ServicesBento() {
                 </div>
 
                 <div className="services-grid mt-12 grid grid-cols-1 gap-4 md:grid-cols-2 lg:mt-16 lg:grid-cols-4 lg:gap-5">
-                    {services.map((service) => (
+                    {homeServices.map((service) => (
                         <ServiceCard key={service.id} service={service} />
                     ))}
                 </div>

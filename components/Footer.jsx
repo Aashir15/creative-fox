@@ -12,9 +12,11 @@ import PrimaryBtn from "./PrimaryBtn";
 
 const companyLinks = [
     { name: "Home", href: "/" },
-    { name: "About", href: "/about" },
+    { name: "About Us", href: "/about-us" },
+    { name: "Case Studies", href: "/case-studies" },
+    { name: "Services", href: "/services" },
     { name: "Blog", href: "/blog" },
-    { name: "Contact", href: "/contact-us" },
+    { name: "Contact Us", href: "/contact-us" },
 ];
 
 const socialLinks = [
@@ -251,14 +253,14 @@ export default function Footer() {
 
                         <div className="flex flex-wrap items-center gap-x-6 gap-y-3">
                             <Link
-                                href="/privacy"
+                                href="/privacy-policy"
                                 className="transition-colors duration-300 hover:text-black"
                             >
                                 Privacy Policy
                             </Link>
 
                             <Link
-                                href="/term"
+                                href="/terms-and-conditions"
                                 className="transition-colors duration-300 hover:text-black"
                             >
                                 Terms & Conditions
