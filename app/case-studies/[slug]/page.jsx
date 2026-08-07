@@ -148,7 +148,7 @@ export default async function ProjectPage({ params }) {
             </section>
 
             {/* Gallery */}
-            <section className="mx-auto max-w-500 px-6 py-16 md:py-22">
+            {/* <section className="mx-auto max-w-500 px-6 py-16 md:py-22">
                 <div className="grid gap-5">
                     {project.gallery.map((image, index) => (
                         <div
@@ -165,10 +165,10 @@ export default async function ProjectPage({ params }) {
                         </div>
                     ))}
                 </div>
-            </section>
+            </section> */}
 
             {/* Services and CTA */}
-            <section className="mx-auto max-w-400 px-4 pb-20 md:px-8 md:pb-32">
+            <section className="mx-auto max-w-400 px-4 py-20 md:px-8 md:py-32">
                 <div className="grid gap-10 rounded-[30px] bg-[#f7f7f5] p-7 sm:p-10 lg:grid-cols-[1fr_auto] lg:items-center lg:p-14">
                     <div>
                         <p className="text-xs font-semibold uppercase tracking-[0.15em] text-grey">

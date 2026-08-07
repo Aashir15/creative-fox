@@ -122,7 +122,7 @@ export const portfolio = [
         category: "Branding",
         service: "Digital Brand Experience",
         year: "2026",
-        image: "/assets/case-1.jpg",
+        image: "/assets/case-1.webp",
         background: "bg-[#f3e4ea]",
 
         description:
@@ -142,9 +142,7 @@ export const portfolio = [
         ],
 
         gallery: [
-            "/assets/case-1.jpg",
-            "/assets/case-1.jpg",
-            "/assets/case-1.jpg",
+              "/assets/case-1.webp",
         ],
 
         results: [

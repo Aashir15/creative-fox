@@ -178,27 +178,27 @@ function ProjectCard({ project, index }) {
             >
                 <figure
                     className={`
-                relative overflow-hidden rounded-[26px]
-                sm:rounded-[34px] lg:rounded-[42px]
-                ${project.background}
-            `}
+        relative overflow-hidden
+        rounded-[26px]
+        sm:rounded-[34px]
+        lg:rounded-[42px]
+        ${project.background}
+    `}
                 >
                     <div className="relative overflow-hidden">
                         <div
                             ref={imageRef}
-                            className="relative w-full will-change-transform"
+                            className="relative aspect-4/3 w-full overflow-hidden will-change-transform"
                         >
                             <Image
                                 src={project.image}
                                 alt={`${project.title} project`}
-                                width={1200}
-                                height={1050}
+                                fill
+                                priority={index < 2}
                                 sizes="(max-width: 768px) 100vw, 50vw"
-                                className="h-auto w-full object-contain"
+                                className=""
                             />
                         </div>
-
-                        
 
                         <span className="absolute left-5 top-5 z-10 rounded-full border border-white/40 bg-white/20 px-4 py-2 text-xs font-medium text-white! backdrop-blur-xl sm:left-7 sm:top-7">
                             {String(project.id).padStart(2, "0")}
@@ -207,14 +207,14 @@ function ProjectCard({ project, index }) {
                         <div
                             ref={cursorRef}
                             className="
-                        pointer-events-none absolute left-0 top-0 z-20
-                        hidden h-24 w-24 -translate-x-1/2 -translate-y-1/2
-                        items-center justify-center rounded-full
-                        bg-pink text-center text-xs font-semibold
-                        uppercase tracking-[0.12em] text-white!
-                        shadow-[0_15px_45px_rgba(253,2,106,0.35)]
-                        lg:flex
-                    "
+                pointer-events-none absolute left-0 top-0 z-20
+                hidden h-24 w-24 -translate-x-1/2 -translate-y-1/2
+                items-center justify-center rounded-full
+                bg-pink text-center text-xs font-semibold
+                uppercase tracking-[0.12em] text-white!
+                shadow-[0_15px_45px_rgba(253,2,106,0.35)]
+                lg:flex
+            "
                         >
                             View
                             <br />
