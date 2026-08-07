@@ -1244,14 +1244,29 @@ export const services = [
 
         faq: [
             {
-                question: "Do you develop Shopify stores?",
+                question: "Do you provide UI/UX design for web and mobile apps?",
                 answer:
-                    "Yes. We design and develop custom Shopify stores, themes, reusable sections and app integrations.",
+                    "Yes. We design intuitive and user-friendly interfaces for websites, web applications, mobile apps and digital products.",
             },
             {
-                question: "Can you migrate our existing online store?",
+                question: "Can you redesign an existing product interface?",
                 answer:
-                    "Yes. We can migrate products, content, customer information and important SEO data.",
+                    "Yes. We can improve your existing UI/UX by refining user flows, layouts, interactions, visual consistency and overall usability.",
+            },
+            {
+                question: "Do you create wireframes and prototypes?",
+                answer:
+                    "Yes. We create wireframes and interactive prototypes to visualize user journeys, validate ideas and refine the experience before development.",
+            },
+            {
+                question: "Can you create a design system for our product?",
+                answer:
+                    "Yes. We build scalable design systems with reusable components, typography, colors and interface guidelines to maintain consistency across your product.",
+            },
+            {
+                question: "Do you conduct UX research?",
+                answer:
+                    "Yes. We use user research, competitor analysis and product insights to understand user needs and make informed design decisions.",
             },
         ],
     },
