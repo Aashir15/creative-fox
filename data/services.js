@@ -37,13 +37,13 @@ export const services = [
         category: "Development",
 
         excerpt:
-            "Simplify website management with our custom CMSwebsite development services. We specialize indeveloping scalable, user-friendly websites usingplatforms like WordPress, Joomla, and headless CMSsolutions. Whether you need a corporate site, blog, ordynamic content platform, our CMS experts deliverresponsive, SEO-optimized websites that give you fullcontrol without technical hassle.",
+            "Simplify website management with our custom CMSwebsite development services. We specialize in developing scalable, user-friendly websites using platforms like WordPress, and headless CMSsolutions. Whether you need a corporate site, blog, or dynamic content platform, our CMS experts deliver responsive, SEO-optimized websites that give you full control without technical hassle.",
 
         description:
             "We build flexible CMS websites that give your team complete control over content without sacrificing design, performance or search visibility.",
 
-        heroImage: "/assets/cms-services.avif",
-        showcaseImage: "/assets/cms-services-3.webp",
+        heroImage: "/assets/cms-services.jpg",
+        showcaseImage: "/assets/cms-services-3.jpg",
 
         accent: "bg-[#f3e8ff]",
 
@@ -65,14 +65,14 @@ export const services = [
             {
                 title: "WordPress Development",
                 description:
-                    "As a leading WordPress website development company inPakistan, we create lightning-fast, mobile-optimized siteswith full backend control. Whether it’s a custom theme, aunique plugin, or an enterprise-grade portal, our customWordPress development team delivers results that rankand scale.",
-                image: "/assets/cms-services-1.avif",
+                    "As a leading WordPress website development company inPakistan, we create lightning-fast, mobile-optimized sites with full backend control. Whether it’s a custom theme, a unique plugin, or an enterprise-grade portal, our customWordPress development team delivers results that rank and scale.",
+                image: "/assets/cms-services-1.jpg",
             },
             {
                 title: "Joomla Development",
                 description:
-                    "Need a robust, modular website for your business? OurJoomla development company offers custom Joomlatemplates, plugin integration, and full-scale Joomlacomponent development. We’ve helped brands migrate,build, and scale their platforms with ease.",
-                image: "/assets/cms-services-2.avif",
+                    "Need a robust, modular website for your business? Our Joomla development company offers custom Joomla templates, plugin integration, and full-scale Joomla component development. We’ve helped brands migrate,build, and scale their platforms with ease.",
+                image: "/assets/cms-services-2.jpg",
 
             },
         ],
@@ -167,8 +167,8 @@ export const services = [
         description:
             "We build high-performance mobile applications that combine intuitive user experiences, scalable technology and reliable functionality across iOS and Android devices.",
 
-        heroImage: "/assets/app-services.avif",
-        showcaseImage: "/assets/app-services-1.webp",
+        heroImage: "/assets/app-services.jpg",
+        showcaseImage: "/assets/app-services-1.jpg",
 
         accent: "bg-[#f3e8ff]",
 
@@ -191,13 +191,13 @@ export const services = [
                 title: "iOS App Development",
                 description:
                     "From consumer-facing iPhone apps to secure enterprisesolutions, our iOS app development services combinesleek design with stable performance. We specialize inSwift and SwiftUI, ensuring your app feels premium andfunctions flawlessly across iPhones and iPads.",
-                image: "/assets/app-services-2.avif",
+                image: "/assets/app-services-2.jpg",
             },
             {
                 title: "Android App Development",
                 description:
                     "Reach the world's largest mobile audience with customAndroid app development. Our team builds fast, secure,and scalable Android apps using Kotlin and Java, tailoredfor every Android screen size, version, and hardwarerequirement. From startup MVPs to enterprise apps, we’vedone it all.",
-                image: "/assets/app-services-3.avif",
+                image: "/assets/app-services-3.jpg",
             },
         ],
 
@@ -286,13 +286,13 @@ export const services = [
         category: "Development",
 
         excerpt:
-            "Build an online store designed to attract customers, simplify shopping, and increase sales with our ecommerce development services. We create fast, secure, and scalable ecommerce websites using platforms like Shopify and WooCommerce. From product catalogs and payment integrations to custom storefronts and order management, our ecommerce developers build seamless shopping experiences around your business goals.",
+            "Build an online store designed to attract customers, simplify shopping, and increase sales with our e-commerce development services. We create fast, secure, and scalable e-commerce websites using platforms like Shopify and WooCommerce. From product catalogs and payment integrations to custom storefronts and order management, our e-commerce developers build seamless shopping experiences around your business goals.",
 
         description:
-            "We build conversion-focused ecommerce stores that combine intuitive shopping experiences, reliable technology and scalable functionality.",
+            "We build conversion-focused e-commerce stores that combine intuitive shopping experiences, reliable technology and scalable functionality.",
 
-        heroImage: "/assets/e-com-services.avif",
-        showcaseImage: "/assets/e-com-services-1.webp",
+        heroImage: "/assets/e-com-services.jpg",
+        showcaseImage: "/assets/e-com-services-1.jpg",
 
         accent: "bg-[#f3e8ff]",
 
@@ -300,28 +300,28 @@ export const services = [
             "Conversion-focused storefronts",
             "Secure payment integrations",
             "Responsive shopping experience",
-            "Scalable ecommerce architecture",
+            "Scalable e-commerce architecture",
         ],
 
         intro: {
             eyebrow: "Commerce built to convert",
             title: "Turn more visitors into loyal customers.",
             text:
-                "Our ecommerce solutions make it easier for customers to discover products, complete purchases and return for more. Every store is designed around your products, customer journey and long-term sales growth.",
+                "Our e-commerce solutions make it easier for customers to discover products, complete purchases and return for more. Every store is designed around your products, customer journey and long-term sales growth.",
         },
 
         platforms: [
             {
                 title: "Shopify Development",
                 description:
-                    "We build beautiful, high-performance Shopify storesdesigned to convert. Whether you're starting from scratch,migrating from another platform, or customizing anexisting theme, our Shopify developers deliverpixel-perfect storefronts with smooth integrations.",
-                image: "/assets/e-com-services-2.avif",
+                    "We build beautiful, high-performance Shopify stores designed to convert. Whether you're starting from scratch,migrating from another platform, or customizing an existing theme, our Shopify developers deliver pixel-perfect storefronts with smooth integrations.",
+                image: "/assets/e-com-services-2.jpg",
             },
             {
                 title: "WooCommerce Development",
                 description:
-                    "Looking for a flexible and powerful WordPress-basedstore? We build custom WooCommerce websites thatcombine functionality with freedom. Our WooCommerceexperts craft secure, fast, and mobile-friendly online storestailored to your business model.",
-                image: "/assets/e-com-services-3.avif",
+                    "Looking for a flexible and powerful WordPress-based store? We build custom WooCommerce websites that combine functionality with freedom. Our WooCommerce experts craft secure, fast, and mobile-friendly online stores tailored to your business model.",
+                image: "/assets/e-com-services-3.jpg",
             },
         ],
 
@@ -340,9 +340,9 @@ export const services = [
             },
             {
                 number: "03",
-                title: "Ecommerce development",
+                title: "E-commerce development",
                 text:
-                    "We develop your storefront, product system, payments, integrations and essential ecommerce functionality.",
+                    "We develop your storefront, product system, payments, integrations and essential e-commerce functionality.",
             },
             {
                 number: "04",
@@ -374,7 +374,7 @@ export const services = [
             {
                 title: "Ready to scale",
                 text:
-                    "Flexible ecommerce architecture supports growing catalogs, traffic, integrations and business operations.",
+                    "Flexible e-commerce architecture supports growing catalogs, traffic, integrations and business operations.",
             },
             {
                 title: "Simple store management",
@@ -385,19 +385,19 @@ export const services = [
 
         faq: [
             {
-                question: "Which ecommerce platforms do you work with?",
+                question: "Which e-commerce platforms do you work with?",
                 answer:
-                    "We develop ecommerce stores using Shopify, WooCommerce and custom solutions depending on your business requirements.",
+                    "We develop e-commerce stores using Shopify, WooCommerce and custom solutions depending on your business requirements.",
             },
             {
-                question: "Can you migrate my existing ecommerce store?",
+                question: "Can you migrate my existing e-commerce store?",
                 answer:
                     "Yes. We can migrate products, customers, content and essential store data while minimizing disruption to your business.",
             },
             {
                 question: "Can I manage products and orders myself?",
                 answer:
-                    "Yes. We build manageable ecommerce systems that allow your team to update products, process orders and manage everyday store operations.",
+                    "Yes. We build manageable e-commerce systems that allow your team to update products, process orders and manage everyday store operations.",
             },
         ],
     },
@@ -539,8 +539,8 @@ export const services = [
         description:
             "We develop secure, scalable custom software that simplifies operations, connects systems and supports long-term business growth.",
 
-        heroImage: "/assets/software-services.avif",
-        showcaseImage: "/assets/software-services-1.webp",
+        heroImage: "/assets/software-services.jpg",
+        showcaseImage: "/assets/software-services-1.jpg",
 
         accent: "bg-[#f3e8ff]",
 
@@ -663,8 +663,8 @@ export const services = [
         description:
             "We test digital products across functionality, usability, performance and compatibility to help you deliver stable, dependable user experiences.",
 
-        heroImage: "/assets/qa-services.avif",
-        showcaseImage: "/assets/qa-services-1.webp",
+        heroImage: "/assets/qa-services.jpg",
+        showcaseImage: "/assets/qa-services-1.jpg",
 
         accent: "bg-[#f3e8ff]",
 
@@ -782,13 +782,13 @@ export const services = [
         category: "Digital Marketing",
 
         excerpt:
-            "Amplify your brand’s voice with our tailored social mediamarketing services. From content creation and campaignmanagement to social media advertising, we helpbusinesses grow across platforms like Facebook,Instagram, LinkedIn, and Twitter. Our social media agencyensures increased engagement, brand awareness, andlead generation.",
+            "Amplify your brand’s voice with our tailored social media marketing services. From content creation and campaign management to social media advertising, we help businesses grow across platforms like Facebook,Instagram, LinkedIn, and Twitter. Our social media agency ensures increased engagement, brand awareness, and lead generation.",
 
         description:
             "We combine strategy, content, creative direction and performance analysis to build consistent social media growth.",
 
-        heroImage: "/assets/social.avif",
-        showcaseImage: "/assets/social.avif",
+        heroImage: "/assets/social.jpg",
+        showcaseImage: "/assets/social-1.jpg",
 
         accent: "bg-[#ffe4f1]",
 
@@ -811,13 +811,13 @@ export const services = [
                 title: "Creative Strategy",
                 description:
                     "We start with storytelling — powered by data. Our creativesocial media strategy blends design thinking, audienceinsights, and competitive positioning to developscroll-stopping content tailored to your brand voice. Frommonthly content calendars to viral campaign ideas, weensure your brand stays relevant and resonant.",
-                image: "/assets/social-1.avif",
+                image: "/assets/social-2.jpg",
             },
             {
                 title: "Campaign Management",
                 description:
                     "Launching a new product? Running a seasonal sale? Ourcampaign management team handles everything —timelines, assets, targeting, performance, and reporting.Whether it's organic or paid, we craft full-funnelcampaigns across Facebook, Instagram, LinkedIn, TikTok,and more.",
-                image: "/assets/social-1.avif",
+                image: "/assets/social-3.jpg",
             },
         ],
 
@@ -904,8 +904,8 @@ export const services = [
         description:
             "We improve organic search visibility through technical optimization, strategic content and data-driven SEO focused on sustainable growth.",
 
-        heroImage: "/assets/seo-services.avif",
-        showcaseImage: "/assets/seo-services-1.avif",
+        heroImage: "/assets/seo-services.jpg",
+        showcaseImage: "/assets/seo-services-1.jpg",
 
         accent: "bg-[#f3e8ff]",
 
@@ -1150,10 +1150,10 @@ export const services = [
             "Enhance user satisfaction with our intuitive UI/UX designservices. We create engaging interfaces and seamlessuser experiences through user-centered design,wireframing, prototyping, and usability testing. Our UXdesign agency focuses on improving interaction, retention,and overall digital experience.",
 
         description:
-            "We create scalable ecommerce platforms that combine premium design, simple management and conversion-focused customer journeys.",
+            "We create scalable e-commerce platforms that combine premium design, simple management and conversion-focused customer journeys.",
 
-        heroImage: "/assets/ui-services.webp",
-        showcaseImage: "/assets/ui-services.webp",
+        heroImage: "/assets/ui-services.jpg",
+        showcaseImage: "/assets/ui-services-1.jpg",
 
         accent: "bg-[#fff0df]",
 
@@ -1168,21 +1168,21 @@ export const services = [
             eyebrow: "Commerce designed for growth",
             title: "Turn product discovery into confident purchases.",
             text:
-                "From navigation and product pages to checkout and retention, we create ecommerce experiences around customer behavior and business growth.",
+                "From navigation and product pages to checkout and retention, we create e-commerce experiences around customer behavior and business growth.",
         },
 
         platforms: [
             {
                 title: "Web Design Services",
                 description:
-                    "We design conversion-focused websites that areresponsive, accessible, and purpose-built. Whether it’s acorporate site, e-commerce storefront, or product landingpage, our UI/UX team ensures your digital presence alignswith your brand and user goals.",
-                image: "/assets/ui-services-1.avif",
+                    "We design conversion-focused websites that are responsive, accessible, and purpose-built. Whether it’s a corporate site, e-commerce storefront, or product landing page, our UI/UX team ensures your digital presence align switch your brand and user goals.",
+                image: "/assets/ui-services-2.jpg",
             },
             {
                 title: "Mobile Design Services",
                 description:
-                    "From native iOS and Android to hybrid apps, we designseamless mobile experiences. Our mobile UX/UI designservices prioritize touch-friendly navigation, deviceresponsiveness, and visual clarity to keep users engagedon the go.",
-                image: "/assets/ui-services-2.avif",
+                    "From native iOS and Android to hybrid apps, we design seamless mobile experiences. Our mobile UX/UI design services prioritize touch-friendly navigation, device responsiveness, and visual clarity to keep users engaged on the go.",
+                image: "/assets/ui-services-3.jpg",
             },
         ],
 
@@ -1279,13 +1279,13 @@ export const services = [
         category: "Design",
 
         excerpt:
-            "Build a stronger visual presence with professional graphic design services tailored to your brand. From brand identities and marketing materials to social media graphics, presentations, and digital assets, we create distinctive designs that communicate clearly and consistently. Every visual is crafted around your audience, brand personality, and business goals to help you stand out across digital and physical touchpoints.",
+            "Build a stronger visual presence with professional graphic design services tailored to your brand. From brand identities and marketing materials to social media graphics, presentations, and digital assets, we create distinctive designs that communicate clearly and consistently. Every visual is crafted around your audience, brand personality, and business goals to help you stand out across digital and physical touch points.",
 
         description:
-            "We create distinctive, consistent and purposeful visual designs that strengthen your brand and communicate your message across every touchpoint.",
+            "We create distinctive, consistent and purposeful visual designs that strengthen your brand and communicate your message across every touch point.",
 
-        heroImage: "/assets/graphics-services.avif",
-        showcaseImage: "/assets/graphics-services-1.avif",
+        heroImage: "/assets/graphics-services.jpg",
+        showcaseImage: "/assets/graphics-services-1.jpg",
 
         accent: "bg-[#f3e8ff]",
 
@@ -1308,13 +1308,13 @@ export const services = [
                 title: "Logo & Identity Design",
                 description:
                     "A great brand starts with a memorable identity. Our logo design company in Pakistan specializes in creating logos,brand marks, and identity systems that capture your essence..",
-                image: "/assets/graphics-services-2.avif",
+                image: "/assets/graphics-services-2.jpg",
             },
             {
                 title: "Print Design",
                 description:
                     "Print is not dead — it’s evolving. Our print design services in Pakistan include business cards, brochures, flyers,packaging, and all things tactile. We design for impact,making sure your materials don’t just sit there — they sell.",
-                image: "/assets/graphics-services-3.avif",
+                image: "/assets/graphics-services-3.jpg",
             },
         ],
 
