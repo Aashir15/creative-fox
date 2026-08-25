@@ -70,7 +70,7 @@ function ProjectCard({ project, index }) {
     const imageRef = useRef(null);
     const cursorRef = useRef(null);
 
-    const { contextSafe } = useGSAP(
+    useGSAP(
         () => {
             if (!cardRef.current) return;
 
@@ -107,7 +107,7 @@ function ProjectCard({ project, index }) {
         }
     );
 
-    const handleMouseMove = contextSafe((event) => {
+    const handleMouseMove = (event) => {
         if (!cardRef.current || !cursorRef.current) return;
 
         const bounds = cardRef.current.getBoundingClientRect();
@@ -119,9 +119,9 @@ function ProjectCard({ project, index }) {
             ease: "power3.out",
             overwrite: "auto",
         });
-    });
+    };
 
-    const handleMouseEnter = contextSafe(() => {
+    const handleMouseEnter = () => {
         if (imageRef.current) {
             gsap.to(imageRef.current, {
                 scale: 1.06,
@@ -140,9 +140,9 @@ function ProjectCard({ project, index }) {
                 overwrite: "auto",
             });
         }
-    });
+    };
 
-    const handleMouseLeave = contextSafe(() => {
+    const handleMouseLeave = () => {
         if (imageRef.current) {
             gsap.to(imageRef.current, {
                 scale: 1,
@@ -161,7 +161,7 @@ function ProjectCard({ project, index }) {
                 overwrite: "auto",
             });
         }
-    });
+    };
 
     return (
         <article

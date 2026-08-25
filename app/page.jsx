@@ -1,5 +1,3 @@
-import Image from "next/image";
-
 import Hero from "../components/Hero";
 import PartnersMarquee from "../components/PartnersMarquee";
 import ServicesBento from "../components/ServicesBento";

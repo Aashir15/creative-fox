@@ -49,10 +49,6 @@ export default function Blog() {
         });
     }, [activeCategory, search]);
 
-    if (!featuredPost) {
-        return null;
-    }
-
     const heroRef = useRef(null);
 
     useGSAP(
@@ -73,6 +69,10 @@ export default function Blog() {
             scope: heroRef,
         }
     );
+
+    if (!featuredPost) {
+        return null;
+    }
 
     return (
         <>

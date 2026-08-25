@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import { ArrowLeft, ArrowUpRight } from "lucide-react";
+import { ArrowLeft} from "lucide-react";
 import { notFound } from "next/navigation";
 
 import { portfolio } from "../../../data/portfolio";

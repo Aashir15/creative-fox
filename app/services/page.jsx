@@ -6,16 +6,9 @@ import { useGSAP } from "@gsap/react";
 
 import Image from "next/image";
 import Link from "next/link";
-import { ArrowUpRight } from "lucide-react";
 
 import { services } from "../../data/services";
 import PrimaryBtn from "../../components/PrimaryBtn";
-
-// export const metadata = {
-//     title: "Services",
-//     description:
-//         "Explore web development, e-commerce, design and digital marketing services by Creative Fox.",
-// };
 
 export default function ServicesPage() {
 

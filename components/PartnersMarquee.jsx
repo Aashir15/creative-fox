@@ -41,7 +41,7 @@ function PartnerItem({ partner }) {
     const logoRef = useRef(null);
     const circleRef = useRef(null);
 
-    const { contextSafe } = useGSAP(
+    useGSAP(
         () => {
             if (!logoRef.current) return;
 
@@ -56,7 +56,7 @@ function PartnerItem({ partner }) {
         }
     );
 
-    const handleMouseEnter = contextSafe(() => {
+    const handleMouseEnter = () => {
         const targets = [
             textRef.current,
             logoRef.current,
@@ -92,9 +92,9 @@ function PartnerItem({ partner }) {
                 ease: "power3.out",
             });
         }
-    });
+    };
 
-    const handleMouseLeave = contextSafe(() => {
+    const handleMouseLeave = () => {
         const targets = [
             textRef.current,
             logoRef.current,
@@ -131,7 +131,7 @@ function PartnerItem({ partner }) {
                 ease: "power3.out",
             });
         }
-    });
+    };
 
     return (
         <div

@@ -296,6 +296,7 @@ export default function Hero() {
         </section>
     );
 }
+
 const words = [
     "Digital Agency",
     "Tech Agency",
