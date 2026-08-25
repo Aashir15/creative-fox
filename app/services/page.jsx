@@ -39,9 +39,9 @@ export default function ServicesPage() {
         <>
             <section
                 ref={heroRef}
-                className="mx-auto mt-38 max-w-500 px-6"
+                className="mx-auto mt-38 max-w-7xl px-6"
             >
-                <h1 className="text-4xl font-medium leading-[1.03] tracking-[-0.04em] sm:text-6xl lg:text-[114px]">
+                <h1 className="heading">
                     <span className="block overflow-hidden">
                         <span className="hero-title-line block">
                             Your source
@@ -56,7 +56,7 @@ export default function ServicesPage() {
                 </h1>
             </section>
 
-            <section className="mx-auto max-w-500 px-6 py-16 md:py-22">
+            <section className="mx-auto max-w-7xl px-6 py-16 md:py-22">
                 <div className="relative aspect-16/7 min-h-80 overflow-hidden rounded-[28px] bg-black sm:rounded-[38px]">
                     <Image
                         src="/assets/service-cover.avif"
@@ -83,7 +83,7 @@ export default function ServicesPage() {
             </section>
 
             <section>
-                <div className="mx-auto max-w-500 px-6 py-16 md:py-22">
+                <div className="mx-auto max-w-7xl px-6 py-16 md:py-22">
                     <div className="mb-12 max-w-3xl md:mb-20">
                         <span className="badge">What we do</span>
 
@@ -133,7 +133,7 @@ export default function ServicesPage() {
                                             {String(index + 1).padStart(2, "0")}
                                         </p> */}
 
-                                        <h2 className="mt-4 text-4xl font-medium leading-[0.98] tracking-tighter text-black sm:text-5xl lg:text-[64px]">
+                                        <h2 className="mt-4 text-4xl font-medium leading-[0.98] tracking-tighter text-black md:text-5xl">
                                             {service.shortTitle}
                                         </h2>
 
@@ -163,7 +163,7 @@ export default function ServicesPage() {
                 </div>
             </section>
 
-            <section className="mx-auto max-w-500 px-6 py-16 md:py-22">
+            <section className="mx-auto max-w-7xl px-6 py-16 md:py-22">
                 <div className="grid gap-8 rounded-4xl bg-black p-7 sm:p-10 lg:grid-cols-[1fr_auto] lg:items-center lg:p-14">
                     <div>
                         <p className="text-sm font-medium uppercase tracking-[0.15em] text-white/50">

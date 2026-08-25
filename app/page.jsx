@@ -1,6 +1,6 @@
 import Hero from "../components/Hero";
 import PartnersMarquee from "../components/PartnersMarquee";
-import ServicesBento from "../components/ServicesBento";
+// import ServicesBento from "../components/ServicesBento";
 import Testimonials from "../components/Testimonials";
 import PortfolioGrid from "../components/PortfolioGrid";
 
@@ -17,7 +17,7 @@ export default function Home() {
       <PartnersMarquee />
 
       <section className="bg-[#f8f8f6]">
-        <div className="mx-auto max-w-500 px-6 py-16 md:py-22">
+        <div className="mx-auto max-w-7xl px-6 py-16 md:py-22">
           <div className="max-w-180">
             <span className="badge">Selected Work</span>
 
@@ -31,7 +31,7 @@ export default function Home() {
         </div>
       </section>
 
-      <ServicesBento />
+      {/* <ServicesBento /> */}
 
       <Testimonials />
 

@@ -244,7 +244,7 @@ export default function ServicesBento() {
             ref={sectionRef}
             className="overflow-hidden py-16 md:py-24 lg:py-32"
         >
-            <div className="mx-auto max-w-500 px-4 md:px-8">
+            <div className="mx-auto max-w-7xl px-4 md:px-8">
                 <div className="services-heading grid gap-7 lg:grid-cols-[1fr_0.55fr] lg:items-end">
                     <div>
                         <span className="badge">What We Do</span>

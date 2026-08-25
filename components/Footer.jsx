@@ -55,7 +55,7 @@ export default function Footer() {
         <footer className="px-3 pb-3 pt-12 sm:px-5 sm:pb-5 md:pt-20">
             <div
                 className="
-          relative mx-auto max-w-500 px-4 md:px-8 overflow-hidden
+          relative mx-auto max-w-7xl px-4 md:px-8 overflow-hidden
           rounded-[30px] border border-black/8
           bg-[#f7f7f5]
           shadow-[0_24px_80px_rgba(7,0,11,0.08)]
@@ -276,7 +276,7 @@ export default function Footer() {
               whitespace-nowrap text-center uppercase
               text-[16vw] font-medium leading-none
               tracking-[-0.075em] text-black/5
-              lg:text-[13vw]
+              lg:text-[11vw]
             "
                     >
                         Creative Fox

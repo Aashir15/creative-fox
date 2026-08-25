@@ -76,7 +76,7 @@ export default function Header() {
         <header className="fixed inset-x-0 top-4 z-50 px-3 sm:px-5">
             <div
                 style={{
-                    maxWidth: isScrolled ? "1200px" : "2000px",
+                    maxWidth: isScrolled ? "1100px" : "1200px",
                 }}
                 className="
                     relative mx-auto w-full

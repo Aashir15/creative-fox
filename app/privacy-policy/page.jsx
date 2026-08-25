@@ -195,7 +195,7 @@ const sections = [
 export default function PrivacyPolicy() {
     return (
         <>
-            <header className="mx-auto max-w-500 px-6 py-16 md:py-22 mt-18">
+            <header className="mx-auto max-w-7xl px-6 py-16 md:py-22 mt-18">
                 <div>
                     <p className="mb-5 text-sm font-medium uppercase tracking-[0.16em] text-grey">
                         Legal
@@ -214,7 +214,7 @@ export default function PrivacyPolicy() {
                 </div>
             </header>
 
-            <section className="border-t border-black/10 mx-auto max-w-500 px-6 py-16 md:py-22">
+            <section className="border-t border-black/10 mx-auto max-w-7xl px-6 py-16 md:py-22">
                 <div className="grid gap-12 lg:grid-cols-[320px_1fr] lg:gap-24">
                     <aside className="lg:sticky lg:top-32 lg:self-start">
                         <p className="max-w-70 text-lg leading-relaxed text-grey">

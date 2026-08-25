@@ -198,7 +198,7 @@ export default function Testimonials() {
             ref={sectionRef}
             className="overflow-hidden py-16 md:py-22"
         >
-            <div className="mx-auto max-w-500 px-4 md:px-8">
+            <div className="mx-auto max-w-7xl px-4 md:px-8">
                 <div className="testimonial-heading grid gap-7 lg:grid-cols-[1fr_0.55fr] lg:items-end">
                     <div>
                         <span className="badge">Client Stories</span>
@@ -276,7 +276,7 @@ export default function Testimonials() {
                                     ))}
                                 </div>
 
-                                <blockquote className="mt-7 max-w-187 text-2xl font-medium leading-[1.18] tracking-[-0.035em] text-white! sm:text-3xl lg:text-[42px]">
+                                <blockquote className="mt-7 max-w-187 text-2xl font-medium leading-[1.18] tracking-[-0.035em] text-white! md:text-[40px]">
                                     “{activeTestimonial.quote}”
                                 </blockquote>
 

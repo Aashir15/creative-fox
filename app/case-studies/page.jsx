@@ -44,9 +44,9 @@ export default function CaseStudies() {
         <>
             <section
                 ref={heroRef}
-                className="mx-auto mt-38 max-w-500 px-6"
+                className="mx-auto mt-38 max-w-7xl px-6"
             >
-                <h1 className="text-4xl font-medium leading-[1.03] tracking-[-0.04em] sm:text-6xl lg:text-[114px]">
+                <h1 className="heading">
                     <span className="block overflow-hidden">
                         <span className="hero-title-line block">
                             We’re Moving
@@ -67,7 +67,7 @@ export default function CaseStudies() {
                 </div>
             </section>
 
-            <section className="mx-auto max-w-500 px-6 py-16 md:py-22">
+            <section className="mx-auto max-w-7xl px-6 py-16 md:py-22">
                 <PortfolioGrid />
             </section>
         </>

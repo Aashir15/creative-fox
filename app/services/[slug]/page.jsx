@@ -50,7 +50,7 @@ export default async function ServiceDetailsPage({ params }) {
 
     return (
         <>
-            <section className="mx-auto max-w-500 px-6 py-16 md:py-22 mt-18">
+            <section className="mx-auto max-w-7xl px-6 py-16 md:py-22 mt-18">
                 <Link
                     href="/services"
                     className="group inline-flex items-center gap-2 text-sm font-medium text-grey transition hover:text-black"
@@ -67,7 +67,7 @@ export default async function ServiceDetailsPage({ params }) {
                     <div>
                         <span className="badge">{service.category}</span>
 
-                        <h1 className="text-4xl font-medium leading-[1.03] tracking-[-0.04em] sm:text-6xl lg:text-[114px]">
+                        <h1 className="heading">
                             {service.title}
                         </h1>
                     </div>
@@ -84,7 +84,7 @@ export default async function ServiceDetailsPage({ params }) {
                 </div>
             </section>
 
-            <section className="mx-auto max-w-500 px-6">
+            <section className="mx-auto max-w-7xl px-6">
                 <div className="relative aspect-16/8 min-h-90 overflow-hidden rounded-[28px] sm:rounded-[40px]">
                     <Image
                         src={service.showcaseImage}
@@ -110,7 +110,7 @@ export default async function ServiceDetailsPage({ params }) {
                 </div>
             </section>
 
-            <section className="mx-auto max-w-500 px-6 py-16 md:py-22">
+            <section className="mx-auto max-w-7xl px-6 py-16 md:py-22">
                 <div className="grid gap-10 lg:grid-cols-[0.65fr_1fr] lg:gap-20">
                     <p className="text-sm font-semibold uppercase tracking-[0.15em] text-pink">
                         {service.intro.eyebrow}
@@ -142,7 +142,7 @@ export default async function ServiceDetailsPage({ params }) {
             </section> */}
 
             <section>
-                <div className="mx-auto max-w-500 px-6 py-16 md:py-22">
+                <div className="mx-auto max-w-7xl px-6 py-16 md:py-22">
                     <div className="max-w-4xl">
                         <span className="badge">Why it matters</span>
 
@@ -181,7 +181,7 @@ export default async function ServiceDetailsPage({ params }) {
             </section>
 
             <section className="bg-[#f7f7f5]">
-                <div className="mx-auto max-w-500 px-6 py-16 md:py-22">
+                <div className="mx-auto max-w-7xl px-6 py-16 md:py-22">
                     <div className="max-w-4xl">
                         <span className="badge">Solutions</span>
 
@@ -237,7 +237,7 @@ export default async function ServiceDetailsPage({ params }) {
             </section>
 
             <section>
-                <div className="mx-auto max-w-500 px-6 py-16 md:py-22">
+                <div className="mx-auto max-w-7xl px-6 py-16 md:py-22">
                     <div className="grid gap-8 lg:grid-cols-[0.7fr_1fr]">
                         <div>
                             <span className="badge">Our process</span>
@@ -279,7 +279,7 @@ export default async function ServiceDetailsPage({ params }) {
             </section>
 
             <section className="bg-black">
-                <div className="mx-auto max-w-500 px-6 py-16 md:py-22">
+                <div className="mx-auto max-w-7xl px-6 py-16 md:py-22">
                     <span className="text-sm font-semibold uppercase tracking-[0.15em] text-pink">
                         Industry experience
                     </span>
@@ -333,7 +333,7 @@ export default async function ServiceDetailsPage({ params }) {
             </section>
 
             <section className="bg-[#f7f7f5]">
-                <div className="mx-auto max-w-500 px-6 py-16 md:py-22">
+                <div className="mx-auto max-w-7xl px-6 py-16 md:py-22">
                     <div className="flex items-end justify-between gap-6">
                         <div>
                             <span className="badge">More expertise</span>
@@ -387,7 +387,7 @@ export default async function ServiceDetailsPage({ params }) {
                 </div>
             </section>
 
-            <section className="mx-auto max-w-500 px-6 py-16 md:py-22">
+            <section className="mx-auto max-w-7xl px-6 py-16 md:py-22">
                 <div className="rounded-[30px] bg-pink p-7 sm:p-10 lg:p-16">
                     <p className="text-sm font-semibold uppercase tracking-[0.15em] text-white/65">
                         Ready when you are

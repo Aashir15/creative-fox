@@ -145,10 +145,10 @@ export default function AboutUs() {
         <>
             <section
                 ref={heroRef}
-                className="mx-auto mt-38 max-w-500 px-6"
+                className="mx-auto mt-38 max-w-7xl px-6"
             >
                 <div>
-                    <h1 className="text-4xl font-medium leading-[1.03] tracking-[-0.04em] sm:text-6xl lg:text-[114px]">
+                    <h1 className="heading">
                         <span className="block overflow-hidden">
                             <span className="about-title-line block">
                                 We Build,
@@ -194,7 +194,7 @@ export default function AboutUs() {
             </section>
 
             <section className="mt-16">
-                <div className="mx-auto max-w-500 px-6 py-16 md:py-22">
+                <div className="mx-auto max-w-7xl px-6 py-16 md:py-22">
                     <div className="max-w-260">
                         <h2 className="heading">
                             Creative Fox is a digital agency. We craft impactful
@@ -244,7 +244,7 @@ export default function AboutUs() {
             <PartnersMarquee />
 
             <section className="bg-[#f8f8f6]">
-                <div className="mx-auto max-w-500 px-6 py-16 md:py-22">
+                <div className="mx-auto max-w-7xl px-6 py-16 md:py-22">
                     <div className="max-w-180">
                         <span className="badge">Selected Work</span>
 

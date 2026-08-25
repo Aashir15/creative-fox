@@ -241,7 +241,7 @@ export default function ContactPage() {
         >
             <section
                 className="
-          relative mx-auto max-w-500 px-4 md:px-8 mt-38 overflow-hidden
+          relative mx-auto max-w-7xl px-4 md:px-8 mt-38 overflow-hidden
           rounded-[30px] border border-black/8
           bg-[#f7f7f5] py-12
           shadow-[0_24px_80px_rgba(7,0,11,0.06)]
@@ -530,16 +530,16 @@ export default function ContactPage() {
                                         type="submit"
                                         disabled={status === "loading"}
                                         className="
-                      group relative inline-flex min-h-14 items-center
-                      justify-center gap-3 overflow-hidden
-                      rounded-full bg-pink px-7
-                      text-sm font-semibold text-white!
-                      shadow-[0_14px_35px_rgba(253,2,106,0.25)]
-                      transition-all duration-300
-                      hover:-translate-y-0.5 hover:bg-black
-                      hover:shadow-[0_18px_45px_rgba(7,0,11,0.18)]
-                      disabled:pointer-events-none disabled:opacity-60
-                    "
+        group relative inline-flex min-h-14 shrink-0
+        items-center justify-center gap-3 overflow-hidden
+        whitespace-nowrap rounded-full bg-pink px-7
+        text-sm font-semibold text-white!
+        shadow-[0_14px_35px_rgba(253,2,106,0.25)]
+        transition-all duration-300
+        hover:-translate-y-0.5 hover:bg-black
+        hover:shadow-[0_18px_45px_rgba(7,0,11,0.18)]
+        disabled:pointer-events-none disabled:opacity-60
+    "
                                     >
                                         <span className="relative z-9">
                                             {status === "loading"
@@ -566,7 +566,7 @@ export default function ContactPage() {
             </section>
 
             {/* Bottom trust section */}
-            <section className="mx-auto max-w-500 px-4 md:px-8 mt-22">
+            <section className="mx-auto max-w-7xl px-4 md:px-8 mt-22">
                 <div className="grid gap-8 border-y border-black/8 py-10 sm:grid-cols-3 sm:gap-4">
                     <TrustItem
                         number="24h"

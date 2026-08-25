@@ -67,7 +67,7 @@ export default async function BlogDetailsPage({ params }) {
     return (
         <>
             <article className="mt-18">
-                <div className="mx-auto max-w-500 px-6 py-16 md:py-22">
+                <div className="mx-auto max-w-7xl px-6 py-16 md:py-22">
                     <Link
                         href="/blog"
                         className="
@@ -224,7 +224,7 @@ function RelatedPosts({ posts }) {
 
     return (
         <section className="bg-[#f7f7f5]">
-            <div className="mx-auto max-w-500 px-6 py-16 md:py-22">
+            <div className="mx-auto max-w-7xl px-6 py-16 md:py-22">
                 <div className="flex items-end justify-between gap-6">
                     <div>
                         <span className="badge">

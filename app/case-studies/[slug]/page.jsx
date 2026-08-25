@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import { ArrowLeft} from "lucide-react";
+import { ArrowLeft } from "lucide-react";
 import { notFound } from "next/navigation";
 
 import { portfolio } from "../../../data/portfolio";
@@ -45,7 +45,7 @@ export default async function ProjectPage({ params }) {
     return (
         <main className="pt-18">
             {/* Project heading */}
-            <section className="mx-auto max-w-500 px-6 py-16 md:py-22">
+            <section className="mx-auto max-w-7xl px-6 py-16 md:py-22">
                 <Link
                     href="/case-studies"
                     className="group inline-flex items-center gap-2 text-sm font-medium text-grey transition hover:text-black"
@@ -83,7 +83,7 @@ export default async function ProjectPage({ params }) {
             </section>
 
             {/* Main image */}
-            <section className="mx-auto max-w-500 px-4 md:px-6">
+            <section className="mx-auto max-w-7xl px-4 md:px-6">
                 <div className="relative aspect-video overflow-hidden rounded-[28px] sm:rounded-[38px]">
                     <Image
                         src={project.image}
@@ -97,7 +97,7 @@ export default async function ProjectPage({ params }) {
             </section>
 
             {/* Challenge and solution */}
-            <section className="mx-auto max-w-500 px-6 py-16 md:py-22">
+            <section className="mx-auto max-w-7xl px-6 py-16 md:py-22">
                 <div className="grid gap-12 md:grid-cols-2 md:gap-20">
                     <div>
                         <p className="text-xs font-semibold uppercase tracking-[0.15em] text-pink">
@@ -148,7 +148,7 @@ export default async function ProjectPage({ params }) {
             </section>
 
             {/* Gallery */}
-            {/* <section className="mx-auto max-w-500 px-6 py-16 md:py-22">
+            {/* <section className="mx-auto max-w-7xl px-6 py-16 md:py-22">
                 <div className="grid gap-5">
                     {project.gallery.map((image, index) => (
                         <div
@@ -168,7 +168,7 @@ export default async function ProjectPage({ params }) {
             </section> */}
 
             {/* Services and CTA */}
-            <section className="mx-auto max-w-400 px-4 py-20 md:px-8 md:py-32">
+            <section className="mx-auto max-w-7xl px-4 py-16 md:px-8 md:py-20">
                 <div className="grid gap-10 rounded-[30px] bg-[#f7f7f5] p-7 sm:p-10 lg:grid-cols-[1fr_auto] lg:items-center lg:p-14">
                     <div>
                         <p className="text-xs font-semibold uppercase tracking-[0.15em] text-grey">
