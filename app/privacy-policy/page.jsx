@@ -2,192 +2,209 @@ import Link from "next/link";
 import { ArrowUpRight } from "lucide-react";
 
 export const metadata = {
-    title: "Privacy Policy | Creative Fox",
+    title: "Privacy Policy | Cloud Minds Tech",
     description:
-        "Learn how Creative Fox collects, uses, and protects your personal information.",
+        "Learn how Cloud Minds Tech collects, uses, discloses and protects personal information.",
 };
 
 const sections = [
     {
-        title: "Information we collect",
-        content: (
-            <>
-                <p>
-                    We may collect personal information that you provide when
-                    contacting us, requesting a proposal, subscribing to updates,
-                    or using our website.
-                </p>
-
-                <p>This information may include:</p>
-
-                <ul>
-                    <li>Your name</li>
-                    <li>Email address</li>
-                    <li>Phone number</li>
-                    <li>Company or organization name</li>
-                    <li>Project details and messages you send us</li>
-                </ul>
-            </>
-        ),
-    },
-    {
-        title: "Information collected automatically",
-        content: (
-            <>
-                <p>
-                    When you visit our website, certain technical information may
-                    be collected automatically through cookies, analytics tools,
-                    and similar technologies.
-                </p>
-
-                <p>This may include:</p>
-
-                <ul>
-                    <li>IP address</li>
-                    <li>Browser and device information</li>
-                    <li>Pages visited</li>
-                    <li>Time spent on the website</li>
-                    <li>Referral source</li>
-                    <li>General location information</li>
-                </ul>
-            </>
-        ),
-    },
-    {
-        title: "How we use your information",
-        content: (
-            <>
-                <p>We may use collected information to:</p>
-
-                <ul>
-                    <li>Respond to inquiries and project requests</li>
-                    <li>Provide and improve our services</li>
-                    <li>Communicate about projects and business opportunities</li>
-                    <li>Improve website performance and user experience</li>
-                    <li>Maintain website security</li>
-                    <li>Comply with legal obligations</li>
-                </ul>
-            </>
-        ),
-    },
-    {
-        title: "Cookies",
+        title: "Who We Are",
         content: (
             <p>
-                Our website may use cookies and similar technologies to remember
-                preferences, understand website traffic, and improve the browsing
-                experience. You can control or disable cookies through your
-                browser settings. Disabling cookies may affect some website
-                functionality.
+                Cloud Minds Tech (“we,” “us,” or “our”) is a digital agency
+                that provides design, development and digital marketing
+                services. This Privacy Policy explains how we collect, use,
+                disclose and protect personal information when you visit our
+                website, submit a form, communicate with us or otherwise
+                interact with our website and services.
             </p>
         ),
     },
     {
-        title: "Analytics and third-party services",
+        title: "Information We May Collect",
+        content: (
+            <ul>
+                <li>
+                    Contact information such as your name, work email, phone
+                    number, company and job title when you provide it.
+                </li>
+                <li>
+                    Project information you submit through inquiry forms, email,
+                    meetings or other communications.
+                </li>
+                <li>
+                    Technical and usage information such as IP address, browser
+                    type, device information, referring pages, pages viewed and
+                    approximate location, depending on the analytics and
+                    security tools enabled on the website.
+                </li>
+                <li>
+                    Marketing and preference information, including consent
+                    choices and communication preferences.
+                </li>
+                <li>
+                    Any other information you voluntarily provide to us.
+                </li>
+            </ul>
+        ),
+    },
+    {
+        title: "How We Use Information",
+        content: (
+            <ul>
+                <li>Respond to inquiries and evaluate potential projects.</li>
+                <li>Provide, manage and improve our services and website.</li>
+                <li>
+                    Communicate about proposals, projects, support and business
+                    matters.
+                </li>
+                <li>
+                    Maintain website security, prevent abuse and troubleshoot
+                    technical issues.
+                </li>
+                <li>
+                    Measure website usage and marketing performance where
+                    permitted.
+                </li>
+                <li>
+                    Comply with legal obligations and protect our rights.
+                </li>
+            </ul>
+        ),
+    },
+    {
+        title: "Cookies and Similar Technologies",
         content: (
             <p>
-                We may use third-party services such as website analytics,
-                hosting, email, customer relationship management, and form
-                processing providers. These providers may process limited
-                information on our behalf to help us operate our website and
-                provide our services.
+                We may use cookies and similar technologies for essential
+                website functions, analytics, preferences and advertising,
+                depending on the tools configured on our website. Where
+                required, non-essential cookies should be used only after the
+                appropriate consent choice. See our Cookie Policy for more
+                information.
             </p>
         ),
     },
     {
-        title: "How we share information",
+        title: "How We Share Information",
         content: (
             <>
                 <p>
-                    We do not sell or rent your personal information. We may share
-                    information with trusted service providers when necessary to
-                    operate our business or deliver our services.
+                    We may share personal information with service providers
+                    that help us operate our website or business, such as
+                    hosting providers, analytics tools, email systems, CRM
+                    platforms, project tools or professional advisers.
                 </p>
 
                 <p>
-                    Information may also be disclosed when required by law, to
-                    protect our legal rights, or in connection with a business
-                    transfer such as a merger or acquisition.
+                    We may also disclose information when required by law, to
+                    protect rights and security, or as part of a business
+                    transaction.
+                </p>
+
+                <p>We do not sell personal information for money.</p>
+
+                <p>
+                    If our marketing stack creates activities treated as
+                    “sale,” “sharing” or targeted advertising under applicable
+                    law, this statement must be updated accordingly.
                 </p>
             </>
         ),
     },
     {
-        title: "Data security",
+        title: "International Data Transfers",
         content: (
             <p>
-                We use reasonable administrative, technical, and organizational
-                measures to protect personal information. However, no method of
-                online transmission or electronic storage is completely secure,
-                and we cannot guarantee absolute security.
+                Because we are based in Pakistan and may work with clients and
+                providers in other countries, information may be processed
+                outside the country where you live. Where applicable, we will
+                use appropriate safeguards required for such transfers.
             </p>
         ),
     },
     {
-        title: "Data retention",
+        title: "Data Retention",
         content: (
             <p>
                 We retain personal information only for as long as reasonably
-                necessary to provide our services, maintain business records,
-                resolve disputes, enforce agreements, and comply with applicable
-                legal requirements.
+                necessary for the purposes described in this policy, including
+                to respond to inquiries, manage business records, meet legal
+                obligations, resolve disputes and enforce agreements. Specific
+                retention periods should be defined internally based on the
+                systems you use.
             </p>
         ),
     },
     {
-        title: "Your privacy rights",
+        title: "Your Privacy Rights",
         content: (
             <>
                 <p>
-                    Depending on your location, you may have the right to request:
+                    Depending on where you live, you may have rights to request
+                    access, correction, deletion, restriction, objection,
+                    portability, withdrawal of consent or information about
+                    certain disclosures.
                 </p>
 
-                <ul>
-                    <li>Access to the personal information we hold about you</li>
-                    <li>Correction of inaccurate information</li>
-                    <li>Deletion of your personal information</li>
-                    <li>Restriction of certain processing activities</li>
-                    <li>A copy of your information</li>
-                    <li>Withdrawal of consent</li>
-                </ul>
-
                 <p>
-                    To submit a privacy request, contact us using the information
-                    provided below.
+                    To exercise a right, contact us at [Privacy Email]. We may
+                    need to verify your request before acting on it.
                 </p>
             </>
         ),
     },
     {
-        title: "External links",
+        title: "Security",
         content: (
             <p>
-                Our website may contain links to websites operated by third
-                parties. We are not responsible for the privacy practices,
-                security, or content of those external websites. Please review
-                their privacy policies before providing personal information.
+                We use reasonable administrative, technical and organizational
+                measures designed to protect personal information. No method of
+                transmission or storage is completely secure, so we cannot
+                guarantee absolute security.
             </p>
         ),
     },
     {
-        title: "Children’s privacy",
+        title: "Children",
         content: (
             <p>
-                Our website and services are not directed to children under the
-                age of 13, and we do not knowingly collect personal information
-                from children. If you believe a child has provided personal
-                information to us, please contact us so we can remove it.
+                Our website and services are intended for businesses and are
+                not directed to children. We do not knowingly seek to collect
+                personal information from children through the website.
             </p>
         ),
     },
     {
-        title: "Changes to this policy",
+        title: "Third-Party Links",
         content: (
             <p>
-                We may update this Privacy Policy when our services, technology,
-                or legal responsibilities change. The updated version will be
-                published on this page with a revised effective date.
+                Our website may link to third-party websites or services. Their
+                privacy practices are governed by their own policies, not this
+                Privacy Policy.
             </p>
+        ),
+    },
+    {
+        title: "Changes to This Policy",
+        content: (
+            <p>
+                We may update this Privacy Policy from time to time. The updated
+                version will be posted on this page with a revised effective
+                date.
+            </p>
+        ),
+    },
+    {
+        title: "Contact Us",
+        content: (
+            <>
+                <p>Cloud Minds Tech</p>
+                <p>[Business Address]</p>
+                <p>[Privacy Email]</p>
+                <p>cloudmindstechllc.com</p>
+            </>
         ),
     },
 ];
@@ -195,7 +212,7 @@ const sections = [
 export default function PrivacyPolicy() {
     return (
         <>
-            <header className="mx-auto max-w-7xl px-6 py-16 md:py-22 mt-18">
+            <header className="mx-auto mt-18 max-w-7xl px-6 py-16 md:py-22">
                 <div>
                     <p className="mb-5 text-sm font-medium uppercase tracking-[0.16em] text-grey">
                         Legal
@@ -208,19 +225,18 @@ export default function PrivacyPolicy() {
                     </h1>
 
                     <div className="mt-10 flex flex-wrap gap-x-10 gap-y-3 text-sm text-grey sm:text-base">
-                        <p>Effective date: August 6, 2026</p>
-                        <p>Last updated: August 6, 2026</p>
+                        <p>Effective date: [Date]</p>
                     </div>
                 </div>
             </header>
 
-            <section className="border-t border-black/10 mx-auto max-w-7xl px-6 py-16 md:py-22">
+            <section className="mx-auto max-w-7xl border-t border-black/10 px-6 py-16 md:py-22">
                 <div className="grid gap-12 lg:grid-cols-[320px_1fr] lg:gap-24">
                     <aside className="lg:sticky lg:top-32 lg:self-start">
                         <p className="max-w-70 text-lg leading-relaxed text-grey">
-                            This policy explains how Creative Fox collects, uses,
-                            stores, and protects information when you use our
-                            website or contact our team.
+                            This Privacy Policy explains how we collect, use,
+                            disclose and protect personal information when you
+                            interact with our website and services.
                         </p>
 
                         <Link
@@ -246,9 +262,10 @@ export default function PrivacyPolicy() {
                     <div>
                         <div className="border-b border-black/10 pb-12 lg:pb-16">
                             <p className="max-w-212 text-xl leading-relaxed text-black/75 sm:text-2xl lg:text-3xl">
-                                Creative Fox respects your privacy. We are
-                                committed to handling personal information
-                                responsibly, transparently, and securely.
+                                This Privacy Policy explains how Cloud Minds
+                                Tech handles personal information when you use
+                                our website, submit a form, communicate with us
+                                or interact with our services.
                             </p>
                         </div>
 
@@ -292,37 +309,18 @@ export default function PrivacyPolicy() {
 
                         <article className="mt-12 rounded-[28px] bg-black p-7 text-white sm:p-10 lg:mt-16 lg:rounded-[40px] lg:p-14">
                             <p className="text-sm font-medium uppercase tracking-[0.16em] text-white/55">
-                                Privacy questions
+                                Privacy Questions
                             </p>
 
                             <h2 className="mt-5 max-w-175 text-3xl font-medium leading-tight tracking-[-0.04em] sm:text-4xl lg:text-5xl">
-                                Contact us about your information.
+                                Contact us about your privacy.
                             </h2>
 
                             <p className="mt-6 max-w-162 text-base leading-7 text-white/65 sm:text-lg">
-                                For questions, requests, or concerns about this
-                                Privacy Policy or your personal information,
-                                contact the Creative Fox team.
+                                To exercise a privacy right or ask a question
+                                about this Privacy Policy, contact us at
+                                [Privacy Email].
                             </p>
-
-                            <Link
-                                href="mailto:hello@creativefox.com"
-                                className="
-                                    group mt-9 inline-flex items-center gap-3
-                                    border-b border-white pb-1
-                                    text-lg font-medium
-                                "
-                            >
-                                hello@creativefox.com
-
-                                <ArrowUpRight
-                                    size={20}
-                                    className="
-                                        transition-transform duration-300
-                                        group-hover:rotate-45
-                                    "
-                                />
-                            </Link>
                         </article>
                     </div>
                 </div>

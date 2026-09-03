@@ -14,23 +14,29 @@ gsap.registerPlugin(useGSAP);
 
 const stats = [
     {
-        value: 100,
-        suffix: "%",
-        label: "In-house & independent",
+        value: 1,
+        suffix: "",
+        label: "Integrated team across design, development & marketing",
     },
     {
         value: 10,
         suffix: "+",
-        label: "Years crafting digital experiences",
+        label: "Years building digital experiences",
     },
     {
-        value: 80,
-        suffix: "+",
-        label: "Awards from Awwwards, FWA & CSS Design Awards",
+        value: 100,
+        suffix: "%",
+        label: "Strategy-led and tailored execution",
     },
 ];
 
-
+const reasons = [
+    "One team across design, development and marketing.",
+    "Strategy-led execution instead of one-size-fits-all solutions.",
+    "Modern tools and scalable technology.",
+    "Clear communication and structured project delivery.",
+    "Long-term support beyond launch.",
+];
 
 function AnimatedCounter({ value, suffix }) {
     const [count, setCount] = useState(0);
@@ -117,13 +123,22 @@ export default function AboutUs() {
                     stagger: 0.13,
                 })
                 .from(
-                    ".about-button",
+                    ".about-description",
                     {
                         y: 24,
                         autoAlpha: 0,
                         duration: 0.7,
                     },
                     "-=0.55"
+                )
+                .from(
+                    ".about-button",
+                    {
+                        y: 24,
+                        autoAlpha: 0,
+                        duration: 0.7,
+                    },
+                    "-=0.5"
                 )
                 .from(
                     imageRef.current,
@@ -143,45 +158,51 @@ export default function AboutUs() {
 
     return (
         <>
+            {/* Hero */}
             <section
                 ref={heroRef}
                 className="mx-auto mt-38 max-w-7xl px-6"
             >
-                <div>
+                <div className="max-w-5xl">
                     <h1 className="heading">
                         <span className="block overflow-hidden">
                             <span className="about-title-line block">
-                                We Build,
+                                We’re a Digital Agency
                             </span>
                         </span>
 
                         <span className="block overflow-hidden">
                             <span className="about-title-line block">
-                                We Innovate
+                                Built to Create, Build & Grow.
                             </span>
                         </span>
                     </h1>
 
+                    <p className="about-description mt-6 max-w-3xl text-lg leading-relaxed text-grey md:text-xl">
+                        We combine creative thinking, technology and performance
+                        marketing to help businesses compete in a digital-first world.
+                    </p>
+
                     <div className="about-button">
-                        <PrimaryBtn className="mt-4" href="/contact-us">
-                            Get Started
+                        <PrimaryBtn className="mt-7" href="/contact-us">
+                            Start a Project
                         </PrimaryBtn>
                     </div>
                 </div>
 
-                <div className="mt-7">
+                <div className="mt-10">
                     <div
                         ref={imageRef}
                         className="
-              relative h-77 overflow-hidden rounded-[22px]
-              will-change-transform
-              sm:h-107 sm:rounded-[28px]
-              lg:h-125
-            "
+                            relative h-77 overflow-hidden rounded-[22px]
+                            will-change-transform
+                            sm:h-107 sm:rounded-[28px]
+                            lg:h-125
+                        "
                     >
                         <Image
-                            src="/assets/hero.png"
-                            alt="Creative team collaborating in an office"
+                            src="/assets/qa-services.jpg"
+                            alt="Digital agency team collaborating on creative and technology projects"
                             fill
                             priority
                             sizes="(max-width: 640px) 100vw, (max-width: 1024px) 95vw, 1400px"
@@ -193,28 +214,42 @@ export default function AboutUs() {
                 </div>
             </section>
 
+            {/* Who We Are */}
             <section className="mt-16">
                 <div className="mx-auto max-w-7xl px-6 py-16 md:py-22">
-                    <div className="max-w-260">
-                        <h2 className="heading">
-                            Creative Fox is a digital agency. We craft impactful
-                            experiences with talented people and bold ideas.
-                        </h2>
+                    <div className="grid gap-10 lg:grid-cols-[0.7fr_1.3fr] lg:gap-20">
+                        <div>
+                            <span className="badge">Who We Are</span>
+                        </div>
+
+                        <div>
+                            <h2 className="heading">
+                                Creative, technical and growth expertise under one roof.
+                            </h2>
+
+                            <p className="mt-7 max-w-3xl text-lg leading-relaxed text-grey md:text-xl">
+                                We are a Pakistan-based digital agency working with
+                                businesses and teams internationally. Our expertise
+                                spans branding, UI/UX design, web and software
+                                development, mobile apps and digital marketing.
+                            </p>
+                        </div>
                     </div>
 
-                    <div className="mt-14 grid grid-cols-1 border-y border-black/10 sm:grid-cols-3 lg:mt-20">
+                    {/* Stats */}
+                    <div className="mt-16 grid grid-cols-1 border-y border-black/10 sm:grid-cols-3 lg:mt-24">
                         {stats.map((stat) => (
                             <div
                                 key={stat.label}
                                 className="
-                  flex flex-col gap-3 border-b border-black/10
-                  px-2 py-10
-                  last:border-b-0
-                  sm:border-b-0 sm:border-r sm:px-7
-                  sm:last:border-r-0
-                  lg:flex-row lg:items-center lg:gap-7
-                  lg:px-10 lg:py-14
-                "
+                                    flex flex-col gap-3 border-b border-black/10
+                                    px-2 py-10
+                                    last:border-b-0
+                                    sm:border-b-0 sm:border-r sm:px-7
+                                    sm:last:border-r-0
+                                    lg:flex-row lg:items-center lg:gap-7
+                                    lg:px-10 lg:py-14
+                                "
                             >
                                 <p className="shrink-0 text-5xl font-medium tracking-tighter text-black lg:text-7xl">
                                     <AnimatedCounter
@@ -223,42 +258,124 @@ export default function AboutUs() {
                                     />
                                 </p>
 
-                                <p className="max-w-50 text-base leading-snug text-grey lg:text-lg">
+                                <p className="max-w-55 text-base leading-snug text-grey lg:text-lg">
                                     {stat.label}
                                 </p>
                             </div>
                         ))}
                     </div>
+                </div>
+            </section>
 
-                    <div className="ml-auto mt-16 max-w-212 md:mt-24">
-                        <p className="text-right text-xl leading-relaxed tracking-[-0.02em] text-black/70 sm:text-2xl lg:text-3xl">
-                            We have had the pleasure of collaborating with brands you
-                            will probably recognize. No matter the size of the challenge,
-                            our team remains focused on creating thoughtful, exciting,
-                            and effective digital work.
-                        </p>
+            {/* Our Approach */}
+            <section className="border-t border-black/10">
+                <div className="mx-auto max-w-7xl px-6 py-16 md:py-24">
+                    <div className="grid gap-10 lg:grid-cols-[0.7fr_1.3fr] lg:gap-20">
+                        <div>
+                            <span className="badge">Our Approach</span>
+                        </div>
+
+                        <div className="max-w-4xl">
+                            <h2 className="heading">
+                                Design, technology and marketing should work together.
+                            </h2>
+
+                            <p className="mt-7 text-lg leading-relaxed text-grey md:text-xl">
+                                We believe great digital work happens when design,
+                                technology and marketing work together. Instead of
+                                treating each service as a separate task, we connect
+                                the entire customer journey — from first impression to
+                                conversion and growth.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            {/* Why Us */}
+            <section className="bg-[#f8f8f6]">
+                <div className="mx-auto max-w-7xl px-6 py-16 md:py-24">
+                    <div className="grid gap-12 lg:grid-cols-[0.7fr_1.3fr] lg:gap-20">
+                        <div>
+                            <span className="badge">Why Us</span>
+
+                            <h2 className="heading mt-6">
+                                Built around better outcomes, not just deliverables.
+                            </h2>
+                        </div>
+
+                        <div className="border-t border-black/10">
+                            {reasons.map((reason, index) => (
+                                <div
+                                    key={reason}
+                                    className="flex gap-6 border-b border-black/10 py-7 md:items-center"
+                                >
+                                    <span className="shrink-0 text-sm text-black/40">
+                                        {String(index + 1).padStart(2, "0")}
+                                    </span>
+
+                                    <p className="text-xl leading-snug text-black md:text-2xl">
+                                        {reason}
+                                    </p>
+                                </div>
+                            ))}
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            {/* Mission */}
+            <section>
+                <div className="mx-auto max-w-7xl px-6 py-20 md:py-28">
+                    <div className="max-w-5xl">
+                        <span className="badge">Our Mission</span>
+
+                        <h2 className="heading mt-6">
+                            To help ambitious businesses turn ideas into high-quality
+                            digital experiences that look better, work better and
+                            perform better.
+                        </h2>
                     </div>
                 </div>
             </section>
 
             <PartnersMarquee />
 
+            {/* Selected Work */}
             <section className="bg-[#f8f8f6]">
                 <div className="mx-auto max-w-7xl px-6 py-16 md:py-22">
                     <div className="max-w-180">
                         <span className="badge">Selected Work</span>
 
-                        <h1 className="heading">
+                        <h2 className="heading">
                             Projects built to move brands forward.
-                        </h1>
+                        </h2>
                     </div>
 
                     <PortfolioGrid />
-
                 </div>
             </section>
 
             <Testimonials />
+
+            {/* CTA */}
+            <section className="border-t border-black/10">
+                <div className="mx-auto max-w-7xl px-6 py-20 md:py-28">
+                    <div className="flex flex-col justify-between gap-8 md:flex-row md:items-end">
+                        <div className="max-w-4xl">
+                            <span className="badge">Start a Project</span>
+
+                            <h2 className="heading mt-6">
+                                Ready to build something better?
+                            </h2>
+                        </div>
+
+                        <PrimaryBtn href="/contact-us">
+                            Start a Project
+                        </PrimaryBtn>
+                    </div>
+                </div>
+            </section>
         </>
     );
 }

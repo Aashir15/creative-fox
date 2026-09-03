@@ -1,29 +1,25 @@
 "use client";
 
 import {
-    ArrowUpRight,
     Check,
     ChevronDown,
-    Mail,
-    MapPin,
-    Phone,
     Send,
 } from "lucide-react";
-import Link from "next/link";
 import { useRef, useState } from "react";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { useGSAP } from "@gsap/react";
 
 const contactServices = [
-    "Web Design",
-    "Web Development",
-    "Brand Identity",
+    "Design & Branding",
+    "Website Development",
     "E-commerce",
-    "Digital Marketing",
-    "Social Media",
+    "Mobile App",
+    "Software",
+    "Google Ads / PPC",
     "SEO",
-    "AI Solutions",
+    "SMM",
+    "Lead Generation",
     "Other",
 ];
 
@@ -35,46 +31,16 @@ const projectBudgets = [
     "Not sure yet",
 ];
 
-const contactDetails = [
-    {
-        id: 1,
-        label: "Email us",
-        value: "hello@cloudmindstechllc.com",
-        href: "mailto:hello@cloudmindstechllc.com",
-        icon: "mail",
-    },
-    {
-        id: 2,
-        label: "Call us",
-        value: "+92 337 2111623",
-        href: "tel:+923372111623",
-        icon: "phone",
-    },
-    {
-        id: 3,
-        label: "Our location",
-        value: "Karachi, Pakistan",
-        href: null,
-        icon: "location",
-    },
-];
-
 gsap.registerPlugin(useGSAP, ScrollTrigger);
 
 const initialForm = {
     name: "",
     email: "",
-    phone: "",
     company: "",
+    website: "",
     service: "",
     budget: "",
     message: "",
-};
-
-const iconMap = {
-    mail: Mail,
-    phone: Phone,
-    location: MapPin,
 };
 
 export default function ContactPage() {
@@ -258,111 +224,25 @@ export default function ContactPage() {
 
                 <div className="relative z-9 grid gap-12 lg:grid-cols-[0.8fr_1.2fr] lg:gap-16 xl:gap-24">
                     {/* Left side */}
-                    <div className="flex flex-col">
-                        <div>
-                            <span className="contact-badge badge">
-                                Start a conversation
+                    <div>
+                        <span className="contact-badge badge">
+                            Contact
+                        </span>
+
+                        <h1 className="mt-5 overflow-hidden text-5xl font-medium leading-[0.92] tracking-[-0.06em] text-black sm:text-6xl lg:text-[78px] xl:text-[92px]">
+                            <span className="contact-title-line block">
+                                Let&apos;s Build
                             </span>
 
-                            <h1 className="mt-5 overflow-hidden text-5xl font-medium leading-[0.92] tracking-[-0.06em] text-black sm:text-6xl lg:text-[78px] xl:text-[92px]">
-                                <span className="contact-title-line block">
-                                    Let’s build
-                                </span>
+                            <span className="contact-title-line block text-pink">
+                                Something Great.
+                            </span>
+                        </h1>
 
-                                <span className="contact-title-line block">
-                                    something
-                                </span>
-
-                                <span className="contact-title-line block text-pink">
-                                    remarkable.
-                                </span>
-                            </h1>
-
-                            <p className="contact-intro mt-7 max-w-xl text-base leading-relaxed text-grey sm:text-lg">
-                                Tell us about your idea, challenge, or next big move. We’ll help
-                                you turn it into a clear strategy and a digital experience that
-                                creates real impact.
-                            </p>
-                        </div>
-
-                        {/* Contact details */}
-                        <div className="mt-10 space-y-3 lg:mt-auto lg:pt-16">
-                            {contactDetails.map((item) => {
-                                const Icon = iconMap[item.icon];
-
-                                const content = (
-                                    <>
-                                        <span
-                                            className="
-                        flex h-12 w-12 shrink-0 items-center justify-center
-                        rounded-full bg-pink/10 text-pink
-                        transition-all duration-300
-                        group-hover:bg-pink group-hover:text-white!
-                      "
-                                        >
-                                            <Icon size={19} />
-                                        </span>
-
-                                        <span>
-                                            <span className="block text-xs font-medium uppercase tracking-[0.14em] text-grey">
-                                                {item.label}
-                                            </span>
-
-                                            <span className="mt-1 block text-sm font-medium text-black sm:text-base">
-                                                {item.value}
-                                            </span>
-                                        </span>
-
-                                        {item.href && (
-                                            <ArrowUpRight
-                                                size={18}
-                                                className="
-                          ml-auto text-black/30
-                          transition-all duration-300
-                          group-hover:translate-x-1
-                          group-hover:-translate-y-1
-                          group-hover:text-pink
-                        "
-                                            />
-                                        )}
-                                    </>
-                                );
-
-                                if (item.href) {
-                                    return (
-                                        <a
-                                            key={item.id}
-                                            href={item.href}
-                                            className="
-                        contact-info-card group flex items-center gap-4
-                        rounded-[22px] border border-black/8
-                        bg-white/70 px-4 py-4
-                        backdrop-blur-xl
-                        transition-all duration-300
-                        hover:-translate-y-0.5 hover:border-pink/25
-                        hover:shadow-[0_16px_45px_rgba(7,0,11,0.07)]
-                      "
-                                        >
-                                            {content}
-                                        </a>
-                                    );
-                                }
-
-                                return (
-                                    <div
-                                        key={item.id}
-                                        className="
-                      contact-info-card group flex items-center gap-4
-                      rounded-[22px] border border-black/8
-                      bg-white/70 px-4 py-4
-                      backdrop-blur-xl
-                    "
-                                    >
-                                        {content}
-                                    </div>
-                                );
-                            })}
-                        </div>
+                        <p className="contact-intro mt-7 max-w-xl text-base leading-relaxed text-grey sm:text-lg">
+                            Tell us a little about your project and our team will get
+                            back to you.
+                        </p>
                     </div>
 
                     {/* Contact form */}
@@ -380,20 +260,16 @@ export default function ContactPage() {
                         <div className="pointer-events-none absolute -right-28 -top-28 h-72 w-72 rounded-full bg-pink/8 blur-[90px]" />
 
                         <div className="relative z-9">
-                            <div className="flex flex-col gap-4 border-b border-black/8 pb-7 sm:flex-row sm:items-end sm:justify-between">
-                                <div>
+                            <div className="flex flex-col gap-4 pb-7 sm:flex-row sm:items-end sm:justify-between">
+                                <div className="">
                                     <p className="text-xs font-semibold uppercase tracking-[0.16em] text-pink">
-                                        Project inquiry
+                                        Project Inquiry
                                     </p>
 
                                     <h2 className="mt-3 text-3xl font-medium tracking-[-0.045em] text-black sm:text-4xl">
-                                        Tell us about your project.
+                                        Tell us about your project
                                     </h2>
                                 </div>
-
-                                <span className="text-sm text-grey">
-                                    Usually replies within 24 hours
-                                </span>
                             </div>
 
                             <form
@@ -403,45 +279,45 @@ export default function ContactPage() {
                             >
                                 <div className="grid gap-6 sm:grid-cols-2">
                                     <FormField
-                                        label="Your name"
+                                        label="Name"
                                         name="name"
                                         value={form.name}
                                         onChange={handleChange}
-                                        placeholder="John Smith"
+                                        placeholder="Your name"
                                         error={errors.name}
                                         required
                                     />
 
                                     <FormField
-                                        label="Email address"
+                                        label="Work Email"
                                         name="email"
                                         type="email"
                                         value={form.email}
                                         onChange={handleChange}
-                                        placeholder="john@company.com"
+                                        placeholder="you@company.com"
                                         error={errors.email}
                                         required
                                     />
 
                                     <FormField
-                                        label="Phone number"
-                                        name="phone"
-                                        type="tel"
-                                        value={form.phone}
-                                        onChange={handleChange}
-                                        placeholder="+92 300 0000000"
-                                    />
-
-                                    <FormField
-                                        label="Company name"
+                                        label="Company"
                                         name="company"
                                         value={form.company}
                                         onChange={handleChange}
-                                        placeholder="Your company"
+                                        placeholder="Company name"
+                                    />
+
+                                    <FormField
+                                        label="Website"
+                                        name="website"
+                                        type="url"
+                                        value={form.website}
+                                        onChange={handleChange}
+                                        placeholder="https://example.com"
                                     />
 
                                     <SelectField
-                                        label="What can we help with?"
+                                        label="What service do you need?"
                                         name="service"
                                         value={form.service}
                                         onChange={handleChange}
@@ -476,19 +352,19 @@ export default function ContactPage() {
                                         value={form.message}
                                         onChange={handleChange}
                                         rows={6}
-                                        placeholder="Tell us about your goals, requirements, timeline, and anything else we should know..."
+                                        placeholder="Tell us about your project..."
                                         className={`
-                      min-h-37 w-full resize-none
-                      rounded-[20px] border bg-[#f7f7f5]
-                      px-4 py-4 text-sm text-black
-                      outline-none transition-all duration-300
-                      placeholder:text-black/30
-                      focus:bg-white focus:ring-4
-                      ${errors.message
+            min-h-37 w-full resize-none
+            rounded-[20px] border bg-[#f7f7f5]
+            px-4 py-4 text-sm text-black
+            outline-none transition-all duration-300
+            placeholder:text-black/30
+            focus:bg-white focus:ring-4
+            ${errors.message
                                                 ? "border-red-400 focus:border-red-400 focus:ring-red-100"
                                                 : "border-black/8 focus:border-pink focus:ring-pink/10"
                                             }
-                    `}
+        `}
                                     />
 
                                     {errors.message && (
@@ -522,8 +398,8 @@ export default function ContactPage() {
 
                                 <div className="flex flex-col gap-4 border-t border-black/8 pt-6 sm:flex-row sm:items-center sm:justify-between">
                                     <p className="max-w-sm text-xs leading-relaxed text-grey">
-                                        By submitting this form, you agree that we may contact you
-                                        regarding your project.
+                                        Your information is used only to understand your project
+                                        and respond to your inquiry.
                                     </p>
 
                                     <button
@@ -543,8 +419,8 @@ export default function ContactPage() {
                                     >
                                         <span className="relative z-9">
                                             {status === "loading"
-                                                ? "Sending message..."
-                                                : "Send inquiry"}
+                                                ? "Submitting..."
+                                                : "Submit Project Inquiry"}
                                         </span>
 
                                         {status === "loading" ? (
@@ -562,49 +438,6 @@ export default function ContactPage() {
                             </form>
                         </div>
                     </div>
-                </div>
-            </section>
-
-            {/* Bottom trust section */}
-            <section className="mx-auto max-w-7xl px-4 md:px-8 mt-22">
-                <div className="grid gap-8 border-y border-black/8 py-10 sm:grid-cols-3 sm:gap-4">
-                    <TrustItem
-                        number="24h"
-                        title="Average response"
-                        text="We review every inquiry and respond as quickly as possible."
-                    />
-
-                    <TrustItem
-                        number="100%"
-                        title="Custom approach"
-                        text="Every proposal is shaped around your goals and requirements."
-                    />
-
-                    <TrustItem
-                        number="01"
-                        title="Dedicated team"
-                        text="One focused team from strategy through launch and growth."
-                    />
-                </div>
-
-                <div className="mt-12 text-center">
-                    <p className="text-sm text-grey">
-                        Prefer email? Write directly to{" "}
-                        <a
-                            href="mailto:hello@cloudmindstechllc.com"
-                            className="font-medium text-black underline decoration-pink underline-offset-4 transition hover:text-pink"
-                        >
-                            hello@cloudmindstechllc.com
-                        </a>
-                    </p>
-
-                    <Link
-                        href="/"
-                        className="mt-5 inline-flex items-center gap-2 text-sm font-medium text-black transition hover:text-pink"
-                    >
-                        Return to home
-                        <ArrowUpRight size={16} />
-                    </Link>
                 </div>
             </section>
         </main>
@@ -729,24 +562,6 @@ function SelectField({
                     {error}
                 </p>
             )}
-        </div>
-    );
-}
-
-function TrustItem({ number, title, text }) {
-    return (
-        <div className="border-black/8 sm:border-r sm:px-7 sm:last:border-r-0">
-            <p className="text-4xl font-medium tracking-tighter text-pink sm:text-5xl">
-                {number}
-            </p>
-
-            <h3 className="mt-4 text-lg font-medium text-black">
-                {title}
-            </h3>
-
-            <p className="mt-2 max-w-sm text-sm leading-relaxed text-grey">
-                {text}
-            </p>
         </div>
     );
 }
