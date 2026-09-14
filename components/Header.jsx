@@ -113,7 +113,7 @@ export default function Header() {
                     {/* Desktop navigation */}
                     <nav
                         aria-label="Main navigation"
-                        className="hidden items-center gap-1 lg:flex"
+                        className="hidden items-center gap-2 lg:flex"
                     >
                         {navLinks.slice(0, 2).map((item) => (
                             <NavLink key={item.label} {...item} />
