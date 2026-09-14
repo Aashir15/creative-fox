@@ -117,77 +117,79 @@ export const portfolioFilters = [
 export const portfolio = [
     {
         id: 1,
-        slug: "kiko-milano",
-        title: "Kiko Milano",
-        category: "Branding",
-        service: "Digital Brand Experience",
+        slug: "family-assist-ai-app",
+        title: "Family Assist AI App",
+        category: "App Design",
+        service: "UI/UX Design & Mobile App Experience",
         year: "2026",
-        image: "/assets/case-1.webp",
+        image: "/assets/portfolio-case-1.png",
         background: "bg-[#f3e4ea]",
 
         description:
-            "A complete digital brand experience designed to create a stronger and more memorable connection with customers.",
+            "An AI-powered family assistant designed to simplify everyday planning, keep everyone connected, and make busy family life easier to manage.",
 
         challenge:
-            "The brand needed a modern digital identity that remained consistent across campaigns, platforms, and customer touchpoints.",
+            "Managing family schedules, daily tasks, and responsibilities can feel overwhelming. The challenge was to bring these needs into one welcoming app that feels simple and accessible for the whole family.",
 
         solution:
-            "We created a scalable visual system, refined the digital experience, and developed a clear creative direction for the brand.",
-
-        services: [
-            "Brand Strategy",
-            "Creative Direction",
-            "UI/UX Design",
-            "Web Development",
-        ],
+            "We designed a clear, friendly mobile experience around everyday family needs. Intuitive navigation, organized screens, and approachable AI interactions help families plan their day and stay on top of what matters.",
 
         gallery: [
-              "/assets/case-1.webp",
+            "/assets/portfolio-case-2.png",
+            "/assets/portfolio-case-3.png",
+            "/assets/portfolio-case-4.png",
+            "/assets/portfolio-case-5.png",
+            "/assets/portfolio-case-6.png",
+            "/assets/portfolio-case-7.png",
+            "/assets/portfolio-case-8.png",
+            "/assets/portfolio-case-9.png",
+            "/assets/portfolio-case-10.png",
+            "/assets/portfolio-case-11.png",
+            "/assets/portfolio-case-12.png",
+            "/assets/portfolio-case-13.png",
+            "/assets/portfolio-case-14.png",
+            "/assets/portfolio-case-15.png",
         ],
 
         results: [
-            { value: "42%", label: "Increase in engagement" },
-            { value: "31%", label: "Higher conversion rate" },
-            { value: "2.4x", label: "Faster user journey" },
+            { value: "Simplify", label: "Everyday family planning" },
+            { value: "Connect", label: "Shared routines and responsibilities" },
+            { value: "Assist", label: "AI support for daily life" },
         ],
     },
 
     {
         id: 2,
-        slug: "future-commerce",
-        title: "Future Commerce",
+        slug: "struxa-agency-website",
+        title: "Struxa Agency Website",
         category: "Web Design",
-        service: "E-commerce Experience",
+        service: "UI/UX Design & Agency Website",
         year: "2026",
-        image: "/assets/portfolio-2.webp",
+        image: "/assets/p-c-16.png",
         background: "bg-[#dfeaf8]",
 
         description:
-            "A conversion-focused commerce experience built around clear product discovery and effortless purchasing.",
+            "A modern agency website designed to showcase Struxa’s expertise, highlight its work, and help potential clients take the next step.",
 
         challenge:
-            "Customers struggled to discover products and complete purchases through the previous website.",
+            "The challenge was to bring the agency’s services, personality, and portfolio together in a clear experience that helps visitors understand its value and find the right support.",
 
         solution:
-            "We simplified navigation, improved product presentation, and created a faster checkout journey.",
-
-        services: [
-            "UX Research",
-            "Web Design",
-            "E-commerce",
-            "Frontend Development",
-        ],
+            "We designed a cohesive website with clear service sections, engaging project showcases, and straightforward calls to action. The responsive layout makes it easy to explore the agency’s work and start a conversation across devices.",
 
         gallery: [
-            "/assets/portfolio-2.webp",
-            "/assets/portfolio-3.webp",
-            "/assets/portfolio-4.webp",
+            "/assets/p-c-17.png",
+            "/assets/p-c-18.png",
+            "/assets/p-c-19.png",
+            "/assets/p-c-20.png",
+            "/assets/p-c-21.png",
+            "/assets/p-c-22.png",
         ],
 
         results: [
-            { value: "38%", label: "Increase in conversions" },
-            { value: "27%", label: "Lower bounce rate" },
-            { value: "1.8x", label: "More product views" },
+            { value: "Clarity", label: "Easy-to-explore agency services" },
+            { value: "Trust", label: "Project showcases that demonstrate expertise" },
+            { value: "Connect", label: "A clear path from browsing to inquiry" },
         ],
     },
 ];

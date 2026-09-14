@@ -4,7 +4,6 @@ import { ArrowLeft } from "lucide-react";
 import { notFound } from "next/navigation";
 
 import { portfolio } from "../../../data/portfolio";
-import PrimaryBtn from "../../../components/PrimaryBtn";
 
 export function generateStaticParams() {
     return portfolio.map((project) => ({
@@ -147,51 +146,31 @@ export default async function ProjectPage({ params }) {
                 </div>
             </section>
 
-            {/* Gallery */}
-            {/* <section className="mx-auto max-w-7xl px-6 py-16 md:py-22">
-                <div className="grid gap-5">
+            {/* Stacking gallery */}
+            <section className="mx-auto max-w-7xl px-4 py-16 md:px-6 md:py-22">
+                <div className="relative isolate">
                     {project.gallery.map((image, index) => (
                         <div
                             key={`${image}-${index}`}
-                            className="relative aspect-video overflow-hidden rounded-[26px] sm:rounded-[36px]"
+                            className="sticky top-24 mb-10 last:mb-0 md:top-28 md:mb-20"
+                            style={{
+                                zIndex: index + 1,
+                            }}
                         >
-                            <Image
-                                src={image}
-                                alt={`${project.title} gallery image ${index + 1}`}
-                                fill
-                                sizes="100vw"
-                                className="object-cover"
-                            />
+                            <div className="relative aspect-4/3 overflow-hidden rounded-[26px] bg-white shadow-xl md:aspect-video sm:rounded-[36px]">
+                                <Image
+                                    src={image}
+                                    alt={`${project.title} gallery image ${index + 1}`}
+                                    fill
+                                    sizes="(max-width: 1280px) 100vw, 1280px"
+                                    className="object-cover"
+                                />
+                            </div>
                         </div>
                     ))}
                 </div>
-            </section> */}
-
-            {/* Services and CTA */}
-            <section className="mx-auto max-w-7xl px-4 py-16 md:px-8 md:py-20">
-                <div className="grid gap-10 rounded-[30px] bg-[#f7f7f5] p-7 sm:p-10 lg:grid-cols-[1fr_auto] lg:items-center lg:p-14">
-                    <div>
-                        <p className="text-xs font-semibold uppercase tracking-[0.15em] text-grey">
-                            Services delivered
-                        </p>
-
-                        <div className="mt-5 flex flex-wrap gap-2">
-                            {project.services.map((service) => (
-                                <span
-                                    key={service}
-                                    className="rounded-full border border-black/10 bg-white px-4 py-2 text-sm text-black"
-                                >
-                                    {service}
-                                </span>
-                            ))}
-                        </div>
-                    </div>
-
-                    <PrimaryBtn className="mt-4" href="/contact-us">
-                        Start a Project
-                    </PrimaryBtn>
-                </div>
             </section>
+
         </main>
     );
 }

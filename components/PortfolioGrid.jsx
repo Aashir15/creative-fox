@@ -18,7 +18,7 @@ export default function PortfolioGrid() {
     return (
         <section>
             <div>
-                <div className="flex gap-2 overflow-x-auto pb-3 scrollbar-none [&::-webkit-scrollbar]:hidden">
+                {/* <div className="flex gap-2 overflow-x-auto pb-3 scrollbar-none [&::-webkit-scrollbar]:hidden">
                     {portfolioFilters.map((filter) => (
                         <button
                             key={filter}
@@ -36,7 +36,7 @@ export default function PortfolioGrid() {
                             {filter}
                         </button>
                     ))}
-                </div>
+                </div> */}
 
                 <div className="mt-12 grid gap-x-7 gap-y-14 md:grid-cols-2 md:gap-y-20 lg:mt-16 lg:gap-x-10">
                     {filteredProjects.map((project, index) => (
