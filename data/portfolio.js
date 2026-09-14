@@ -192,4 +192,103 @@ export const portfolio = [
             { value: "Connect", label: "A clear path from browsing to inquiry" },
         ],
     },
+
+    {
+        id: 3,
+        slug: "soccer-master",
+        title: "Soccer Master",
+        category: "App Design",
+        service: "UI/UX Design & Mobile App Experience",
+        year: "2026",
+        image: "/assets/soccer-1.jpg",
+        background: "bg-[#dfeaf8]",
+
+        description:
+            "A soccer-focused mobile app designed to bring the energy of the game into a simple, engaging experience for fans.",
+
+        challenge:
+            "The challenge was to create an app that captures the excitement of soccer while keeping content organized, navigation intuitive, and every screen easy to explore.",
+
+        solution:
+            "We designed a sports-inspired mobile interface with bold typography, clear visual hierarchy, and streamlined navigation. The experience balances an energetic look with readable content and accessible controls.",
+
+        gallery: [
+            "/assets/soccer-2.jpg",
+            "/assets/soccer-4.jpg",
+        ],
+
+        results: [
+            { value: "Explore", label: "Intuitive navigation for soccer fans" },
+            { value: "Focus", label: "Clear, easy-to-scan content" },
+            { value: "Energy", label: "Visual design inspired by the game" },
+        ],
+    },
+
+    {
+        id: 4,
+        slug: "mujes-app",
+        title: "Mujes App",
+        category: "App Design",
+        service: "UI/UX Design & Mobile App Experience",
+        year: "2026",
+        image: "/assets/mujes-1.jpg",
+        background: "bg-[#dfeaf8]",
+
+        description:
+            "A modern mobile app experience designed around clear navigation, thoughtful layouts, and a consistent visual identity.",
+
+        challenge:
+            "The challenge was to establish a distinctive identity for Mujes while keeping the mobile experience simple, organized, and easy to navigate.",
+
+        solution:
+            "We designed a cohesive interface with clear screen layouts, readable typography, and consistent interaction patterns. The design helps users understand their options and move naturally between screens.",
+
+        gallery: [
+            "/assets/mujes-2.jpg",
+            "/assets/mujes-3.jpg",
+            "/assets/mujes-4.jpg",
+            "/assets/mujes-5.jpg",
+            "/assets/mujes-6.jpg",
+        ],
+
+        results: [
+            { value: "Clarity", label: "Simple layouts and clear navigation" },
+            { value: "Flow", label: "Thoughtful journeys between screens" },
+            { value: "Identity", label: "A consistent mobile design language" },
+        ],
+    },
+
+    {
+        id: 5,
+        slug: "campus-chatbot",
+        title: "Campus Chatbot",
+        category: "App Design",
+        service: "UI/UX Design & Conversational Experience",
+        year: "2026",
+        image: "/assets/campus-1.jpg",
+        background: "bg-[#dfeaf8]",
+
+        description:
+            "A campus chatbot app designed to help students find information and navigate everyday campus questions through a simple conversational experience.",
+
+        challenge:
+            "Campus information can be difficult to navigate across different pages and resources. The challenge was to design an approachable chat experience that helps students ask questions and understand the answers.",
+
+        solution:
+            "We designed a conversation-focused interface with clear message layouts, intuitive navigation, and easy-to-follow interactions. The experience puts student questions at the center and makes campus guidance easier to explore.",
+
+        gallery: [
+            "/assets/campus-2.jpg",
+            "/assets/campus-3.jpg",
+            "/assets/campus-4.jpg",
+            "/assets/campus-5.jpg",
+            "/assets/campus-6.jpg",
+        ],
+
+        results: [
+            { value: "Ask", label: "An approachable way to ask campus questions" },
+            { value: "Find", label: "Student-focused information discovery" },
+            { value: "Clarity", label: "Readable, organized conversations" },
+        ],
+    },
 ];
