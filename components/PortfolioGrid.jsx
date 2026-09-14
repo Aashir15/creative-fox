@@ -235,9 +235,9 @@ function ProjectCard({ project, index }) {
                             {project.title}
                         </h3>
 
-                        <p className="mt-2 text-sm text-grey sm:text-base">
+                        {/* <p className="mt-2 text-sm text-grey sm:text-base">
                             {project.service}
-                        </p>
+                        </p> */}
                     </div>
 
                     <span

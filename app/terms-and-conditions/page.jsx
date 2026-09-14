@@ -2,11 +2,30 @@ import Link from "next/link";
 import { ArrowUpRight } from "lucide-react";
 
 export const metadata = {
-    title: "Terms & Conditions | Cloud Minds Tech",
-    description:
-        "Read the Terms & Conditions governing the use of the Cloud Minds Tech website.",
-};
+    title: "Terms & Conditions",
 
+    description:
+        "Read the Creative Fox Terms & Conditions governing the use of our website, services information, intellectual property, acceptable use, and legal responsibilities.",
+
+    alternates: {
+        canonical: "/terms-and-conditions",
+    },
+
+    openGraph: {
+        title: "Terms & Conditions | Creative Fox",
+        description:
+            "Review the terms governing use of the Creative Fox website, including intellectual property, acceptable use, third-party services, and legal responsibilities.",
+        url: "/terms-and-conditions",
+        type: "website",
+    },
+
+    twitter: {
+        card: "summary",
+        title: "Terms & Conditions | Creative Fox",
+        description:
+            "Read the terms governing use of the Creative Fox website and related legal responsibilities.",
+    },
+};
 const sections = [
     {
         title: "Acceptance of These Terms",
@@ -23,9 +42,7 @@ const sections = [
         content: (
             <>
                 <p>
-                    The Website provides general information about Cloud Minds
-                    Tech, our services, capabilities, work and ways to contact
-                    us.
+                    The Website provides general information about Creative Fox, our services, capabilities, work and ways to contact us.
                 </p>
 
                 <p>
@@ -44,7 +61,7 @@ const sections = [
                 <p>
                     Unless otherwise stated, the Website, its original text,
                     graphics, branding, layout and other original materials are
-                    owned by or licensed to Cloud Minds Tech and are protected
+                    owned by or licensed to Creative Fox and are protected
                     by applicable intellectual property laws.
                 </p>
 
@@ -89,7 +106,7 @@ const sections = [
                 </li>
 
                 <li>
-                    Do not misrepresent affiliation with Cloud Minds Tech or
+                    Do not misrepresent affiliation with Creative Fox or
                     misuse our brand or content.
                 </li>
             </ul>
@@ -131,10 +148,7 @@ const sections = [
         content: (
             <>
                 <p>
-                    To the maximum extent permitted by applicable law, Cloud
-                    Minds Tech will not be liable for indirect, incidental,
-                    special, consequential or punitive losses arising solely
-                    from use of, or inability to use, the Website.
+                    To the maximum extent permitted by applicable law, Creative Fox will not be liable for indirect, incidental, special, consequential or punitive losses arising solely from use of, or inability to use, the Website.
                 </p>
 
                 <p>
@@ -177,13 +191,25 @@ const sections = [
         ),
     },
     {
-        title: "Contact",
+        title: "Contact Us",
         content: (
             <>
-                <p>Cloud Minds Tech</p>
-                <p>[Business Address]</p>
-                <p>[Legal / General Email]</p>
-                <p>[Website URL]</p>
+                <p>Creative Fox</p>
+                <p>Karachi, Pakistan</p>
+
+                <a
+                    href="mailto:hello@creativefox.io"
+                    className="block transition hover:opacity-70"
+                >
+                    hello@creativefox.io
+                </a>
+
+                <a
+                    href="tel:+923372111623"
+                    className="block transition hover:opacity-70"
+                >
+                    +92 337 2111623
+                </a>
             </>
         ),
     },
@@ -203,10 +229,6 @@ export default function TermsConditions() {
                         <br />
                         Conditions
                     </h1>
-
-                    <div className="mt-10 flex flex-wrap gap-x-10 gap-y-3 text-sm text-grey sm:text-base">
-                        <p>Effective date: [Date]</p>
-                    </div>
                 </div>
             </header>
 
@@ -215,7 +237,7 @@ export default function TermsConditions() {
                     <aside className="lg:sticky lg:top-32 lg:self-start">
                         <p className="max-w-70 text-lg leading-relaxed text-grey">
                             These Terms & Conditions govern your use of the
-                            Cloud Minds Tech website.
+                            Creative Fox website.
                         </p>
 
                         <Link
@@ -296,7 +318,7 @@ export default function TermsConditions() {
                             </h2>
 
                             <p className="mt-6 max-w-162 text-base leading-7 text-white/65 sm:text-lg">
-                                Contact Cloud Minds Tech using the contact
+                                Contact Creative Fox using the contact
                                 details provided in these Terms.
                             </p>
 

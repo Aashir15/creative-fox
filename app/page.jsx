@@ -1,12 +1,24 @@
 import Hero from "../components/Hero";
 import PartnersMarquee from "../components/PartnersMarquee";
-// import ServicesBento from "../components/ServicesBento";
 import Testimonials from "../components/Testimonials";
 import PortfolioGrid from "../components/PortfolioGrid";
 
-
 export const metadata = {
-  title: "creative fox",
+  title: "Creative Digital Agency for Design, Development & Growth",
+
+  description:
+    "Creative Fox helps ambitious brands grow with web design, development, branding, UI/UX, eCommerce, SEO, and digital marketing solutions.",
+
+  alternates: {
+    canonical: "/",
+  },
+
+  openGraph: {
+    title: "Creative Digital Agency for Design, Development & Growth",
+    description:
+      "We create digital experiences that combine strategy, design, technology, and marketing to help ambitious brands grow.",
+    url: "/",
+  },
 };
 
 export default function Home() {
@@ -21,20 +33,16 @@ export default function Home() {
           <div className="max-w-180">
             <span className="badge">Selected Work</span>
 
-            <h1 className="heading">
+            <h2 className="heading">
               Projects built to move brands forward.
-            </h1>
+            </h2>
           </div>
 
           <PortfolioGrid />
-
         </div>
       </section>
 
-      {/* <ServicesBento /> */}
-
       <Testimonials />
-
     </>
   );
 }

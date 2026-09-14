@@ -22,22 +22,22 @@ const companyLinks = [
 const socialLinks = [
     {
         name: "Facebook",
-        href: "https://www.facebook.com/people/Cloud-Minds-Tech/61574807023512/",
+        href: "https://www.facebook.com/creativefox.io/?_rdc=1&_rdr#",
         icon: "ri-facebook-fill",
     },
     {
         name: "Instagram",
-        href: "https://www.instagram.com/cloud_minds_tech/",
+        href: "https://www.instagram.com/creativefox.io/",
         icon: "ri-instagram-line",
     },
-    {
-        name: "LinkedIn",
-        href: "https://www.linkedin.com/company/cloud-minds-tech-llc",
-        icon: "ri-linkedin-fill",
-    },
+    // {
+    //     name: "LinkedIn",
+    //     href: "https://www.linkedin.com/company/cloud-minds-tech-llc",
+    //     icon: "ri-linkedin-fill",
+    // },
     {
         name: "X",
-        href: "https://x.com/CloudsMindsTech",
+        href: "https://x.com/CreativeFoxIO",
         icon: "ri-twitter-x-fill",
     },
 ];
@@ -88,14 +88,16 @@ export default function Footer() {
                     <div className="grid gap-10 py-10 md:grid-cols-2 lg:grid-cols-[1.2fr_0.7fr_1fr] lg:gap-14 lg:py-14">
                         {/* Brand */}
                         <div>
-                            <Link href="/" className="inline-flex items-center">
+                            <Link
+                                href="/"
+                                className="flex shrink-0 items-center gap-3"
+                            >
                                 <Image
-                                    src="/assets/cloud-mind-tech.png"
-                                    alt="Creative Fox"
-                                    width={500}
-                                    height={200}
-                                    sizes="160px"
-                                    className="h-auto w-37 object-contain sm:w-42"
+                                    src="/assets/logo.png"
+                                    alt="Next.js"
+                                    width={80}
+                                    height={80}
+                                    priority
                                 />
                             </Link>
 
@@ -201,7 +203,7 @@ export default function Footer() {
                                 </a>
 
                                 <a
-                                    href="mailto:hello@cloudmindstechllc.com"
+                                    href="mailto:hello@creativefox.io"
                                     onClick={() => trackEvent("email_click")}
                                     className="
                    group flex items-center gap-4 rounded-2xl
@@ -216,7 +218,7 @@ export default function Footer() {
                                     </span>
 
                                     <span className="break-all">
-                                        hello@creativefox.com
+                                        hello@creativefox.io
                                     </span>
                                 </a>
 

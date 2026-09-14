@@ -107,7 +107,7 @@ export default function PrimaryBtn({
 
 // <Image
 //     src="/assets/logo.jpg"
-//     alt="Cloud Minds Tech"
+//     alt="Creative Fox"
 //     width={500}
 //     height={200}
 //     className="w-25 h-auto"

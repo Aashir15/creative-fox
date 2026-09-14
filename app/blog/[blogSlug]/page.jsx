@@ -27,12 +27,41 @@ export async function generateMetadata({ params }) {
     if (!post) {
         return {
             title: "Article Not Found",
+            robots: {
+                index: false,
+                follow: false,
+            },
         };
     }
 
     return {
         title: post.title,
+
         description: post.excerpt,
+
+        alternates: {
+            canonical: `/blog/${post.slug}`,
+        },
+
+        openGraph: {
+            title: post.title,
+            description: post.excerpt,
+            url: `/blog/${post.slug}`,
+            type: "article",
+            images: [
+                {
+                    url: post.image,
+                    alt: post.title,
+                },
+            ],
+        },
+
+        twitter: {
+            card: "summary_large_image",
+            title: post.title,
+            description: post.excerpt,
+            images: [post.image],
+        },
     };
 }
 

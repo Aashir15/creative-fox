@@ -20,13 +20,42 @@ export async function generateMetadata({ params }) {
 
     if (!project) {
         return {
-            title: "Project not found",
+            title: "Project Not Found",
+            robots: {
+                index: false,
+                follow: false,
+            },
         };
     }
 
     return {
-        title: project.title,
+        title: `${project.title} Case Study`,
+
         description: project.description,
+
+        alternates: {
+            canonical: `/case-studies/${project.slug}`,
+        },
+
+        openGraph: {
+            title: `${project.title} | Creative Fox Case Study`,
+            description: project.description,
+            url: `/case-studies/${project.slug}`,
+            type: "article",
+            images: [
+                {
+                    url: project.image,
+                    alt: `${project.title} case study`,
+                },
+            ],
+        },
+
+        twitter: {
+            card: "summary_large_image",
+            title: `${project.title} | Creative Fox Case Study`,
+            description: project.description,
+            images: [project.image],
+        },
     };
 }
 
@@ -56,25 +85,25 @@ export default async function ProjectPage({ params }) {
                     Back to Case Studies
                 </Link>
 
-                <div className="mt-10 grid gap-8 lg:grid-cols-[1fr_0.5fr] lg:items-end">
+                <div className="mt-10 grid gap-8 lg:grid-cols-[1fr_0.5fr] lg:items-start">
                     <div>
-                        <div className="flex items-center gap-2 text-xs font-semibold uppercase tracking-[0.15em] text-grey">
+                        {/* <div className="flex items-center gap-2 text-xs font-semibold uppercase tracking-[0.15em] text-grey">
                             <span>{project.category}</span>
                             <span className="h-1 w-1 rounded-full bg-pink" />
                             <span>{project.year}</span>
-                        </div>
+                        </div> */}
 
-                        <h1 className="mt-5 text-5xl font-medium leading-[0.92] tracking-[-0.06em] sm:text-7xl lg:text-[110px]">
+                        <h1 className="text-5xl font-medium leading-[0.92] tracking-[-0.06em] sm:text-7xl lg:text-[110px]">
                             {project.title}
                         </h1>
                     </div>
 
                     <div className="lg:justify-self-end">
-                        <p className="text-lg font-medium text-black">
+                        {/* <p className="text-lg font-medium text-black">
                             {project.service}
-                        </p>
+                        </p> */}
 
-                        <p className="mt-4 max-w-md text-base leading-relaxed text-grey md:text-lg">
+                        <p className="max-w-md text-base leading-relaxed text-grey md:text-lg">
                             {project.description}
                         </p>
                     </div>

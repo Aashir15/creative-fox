@@ -26,13 +26,42 @@ export async function generateMetadata({ params }) {
 
     if (!service) {
         return {
-            title: "Service not found",
+            title: "Service Not Found",
+            robots: {
+                index: false,
+                follow: false,
+            },
         };
     }
 
     return {
         title: service.title,
+
         description: service.excerpt,
+
+        alternates: {
+            canonical: `/services/${service.slug}`,
+        },
+
+        openGraph: {
+            title: `${service.title} | Creative Fox`,
+            description: service.excerpt,
+            url: `/services/${service.slug}`,
+            type: "website",
+            images: [
+                {
+                    url: service.heroImage,
+                    alt: `${service.title} service by Creative Fox`,
+                },
+            ],
+        },
+
+        twitter: {
+            card: "summary_large_image",
+            title: `${service.title} | Creative Fox`,
+            description: service.excerpt,
+            images: [service.heroImage],
+        },
     };
 }
 
@@ -127,19 +156,6 @@ export default async function ServiceDetailsPage({ params }) {
                     </div>
                 </div>
             </section>
-
-            {/* Showcase */}
-            {/* <section className="mx-auto max-w-[2000px] px-4 md:px-8">
-                <div className="relative aspect-[16/8] overflow-hidden rounded-[28px] bg-[#f7f7f5] sm:rounded-[40px]">
-                    <Image
-                        src={service.showcaseImage}
-                        alt={`${service.title} digital experience`}
-                        fill
-                        sizes="100vw"
-                        className="object-cover"
-                    />
-                </div>
-            </section> */}
 
             <section>
                 <div className="mx-auto max-w-7xl px-6 py-16 md:py-22">

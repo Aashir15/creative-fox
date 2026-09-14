@@ -1,75 +1,31 @@
-"use client";
+import CaseStudiesClient from "./CaseStudiesClient";
 
-import { useRef } from "react";
-import gsap from "gsap";
-import { useGSAP } from "@gsap/react";
+export const metadata = {
+    title: "Case Studies | Creative Work & Digital Projects",
 
-import PrimaryBtn from "../../components/PrimaryBtn";
-import PortfolioGrid from "../../components/PortfolioGrid";
+    description:
+        "Explore Creative Fox case studies across branding, web design, development, digital products, and marketing. See how we turn ideas into high-impact digital experiences.",
 
-gsap.registerPlugin(useGSAP);
+    alternates: {
+        canonical: "/case-studies",
+    },
 
-export default function CaseStudies() {
-    const heroRef = useRef(null);
+    openGraph: {
+        title: "Creative Fox Case Studies | Selected Digital Work",
+        description:
+            "Explore selected projects across design, development, branding, and digital growth, including the challenges, solutions, and results behind the work.",
+        url: "/case-studies",
+        type: "website",
+    },
 
-    useGSAP(
-        () => {
-            gsap.timeline({
-                defaults: {
-                    ease: "power4.out",
-                },
-            })
-                .from(".hero-title-line", {
-                    yPercent: 115,
-                    autoAlpha: 0,
-                    duration: 1.05,
-                    stagger: 0.13,
-                })
-                .from(
-                    ".hero-button",
-                    {
-                        y: 24,
-                        autoAlpha: 0,
-                        duration: 0.7,
-                    },
-                    "-=0.55"
-                );
-        },
-        {
-            scope: heroRef,
-        }
-    );
+    twitter: {
+        card: "summary_large_image",
+        title: "Creative Fox Case Studies | Selected Digital Work",
+        description:
+            "Explore selected Creative Fox projects across design, development, branding, and digital growth.",
+    },
+};
 
-    return (
-        <>
-            <section
-                ref={heroRef}
-                className="mx-auto mt-38 max-w-7xl px-6"
-            >
-                <h1 className="heading">
-                    <span className="block overflow-hidden">
-                        <span className="hero-title-line block">
-                            We’re Moving
-                        </span>
-                    </span>
-
-                    <span className="block overflow-hidden">
-                        <span className="hero-title-line block">
-                            Brands to Action
-                        </span>
-                    </span>
-                </h1>
-
-                <div className="hero-button mt-4">
-                    <PrimaryBtn href="/contact-us">
-                        Get Started
-                    </PrimaryBtn>
-                </div>
-            </section>
-
-            <section className="mx-auto max-w-7xl px-6 py-16 md:py-22">
-                <PortfolioGrid />
-            </section>
-        </>
-    );
+export default function CaseStudiesPage() {
+    return <CaseStudiesClient />;
 }

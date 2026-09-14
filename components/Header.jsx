@@ -14,6 +14,7 @@ import {
 
 import PrimaryBtn from "./PrimaryBtn";
 import { serviceCategories } from "../data/services";
+import Image from "next/image";
 // Change the import path above to your actual services data file.
 
 const navLinks = [
@@ -100,9 +101,13 @@ export default function Header() {
                         onClick={closeMenu}
                         className="flex shrink-0 items-center gap-3"
                     >
-                        <span className="text-lg font-semibold tracking-[-0.03em] text-black">
-                            Creative Fox
-                        </span>
+                        <Image
+                            src="/assets/logo.png"
+                            alt="Creative Fox"
+                            width={80}
+                            height={80}
+                            priority
+                        />
                     </Link>
 
                     {/* Desktop navigation */}

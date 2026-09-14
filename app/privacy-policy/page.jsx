@@ -2,9 +2,29 @@ import Link from "next/link";
 import { ArrowUpRight } from "lucide-react";
 
 export const metadata = {
-    title: "Privacy Policy | Cloud Minds Tech",
+    title: "Privacy Policy",
+
     description:
-        "Learn how Cloud Minds Tech collects, uses, discloses and protects personal information.",
+        "Read the Creative Fox Privacy Policy to understand how we collect, use, store, and protect personal information when you use our website and services.",
+
+    alternates: {
+        canonical: "/privacy-policy",
+    },
+
+    openGraph: {
+        title: "Privacy Policy | Creative Fox",
+        description:
+            "Learn how Creative Fox collects, uses, stores, and protects personal information when you interact with our website and services.",
+        url: "/privacy-policy",
+        type: "website",
+    },
+
+    twitter: {
+        card: "summary",
+        title: "Privacy Policy | Creative Fox",
+        description:
+            "Learn how Creative Fox handles personal information when you use our website and services.",
+    },
 };
 
 const sections = [
@@ -12,7 +32,7 @@ const sections = [
         title: "Who We Are",
         content: (
             <p>
-                Cloud Minds Tech (“we,” “us,” or “our”) is a digital agency
+                Creative Fox (“we,” “us,” or “our”) is a digital agency
                 that provides design, development and digital marketing
                 services. This Privacy Policy explains how we collect, use,
                 disclose and protect personal information when you visit our
@@ -200,10 +220,22 @@ const sections = [
         title: "Contact Us",
         content: (
             <>
-                <p>Cloud Minds Tech</p>
-                <p>[Business Address]</p>
-                <p>[Privacy Email]</p>
-                <p>cloudmindstechllc.com</p>
+                <p>Creative Fox</p>
+                <p>Karachi, Pakistan</p>
+
+                <a
+                    href="mailto:hello@creativefox.io"
+                    className="block transition hover:opacity-70"
+                >
+                    hello@creativefox.io
+                </a>
+
+                <a
+                    href="tel:+923372111623"
+                    className="block transition hover:opacity-70"
+                >
+                    +92 337 2111623
+                </a>
             </>
         ),
     },
@@ -223,10 +255,6 @@ export default function PrivacyPolicy() {
                         <br />
                         Policy
                     </h1>
-
-                    <div className="mt-10 flex flex-wrap gap-x-10 gap-y-3 text-sm text-grey sm:text-base">
-                        <p>Effective date: [Date]</p>
-                    </div>
                 </div>
             </header>
 
@@ -262,9 +290,9 @@ export default function PrivacyPolicy() {
                     <div>
                         <div className="border-b border-black/10 pb-12 lg:pb-16">
                             <p className="max-w-212 text-xl leading-relaxed text-black/75 sm:text-2xl lg:text-3xl">
-                                This Privacy Policy explains how Cloud Minds
-                                Tech handles personal information when you use
-                                our website, submit a form, communicate with us
+                                This Privacy Policy explains how Creative Fox
+                                handles personal information when you use
+                                our website, submit a form, communicate with us,
                                 or interact with our services.
                             </p>
                         </div>
@@ -319,7 +347,12 @@ export default function PrivacyPolicy() {
                             <p className="mt-6 max-w-162 text-base leading-7 text-white/65 sm:text-lg">
                                 To exercise a privacy right or ask a question
                                 about this Privacy Policy, contact us at
-                                [Privacy Email].
+                                <a
+                                    href="mailto:hello@creativefox.io"
+                                    className="block transition hover:opacity-70"
+                                >
+                                    hello@creativefox.io
+                                </a>
                             </p>
                         </article>
                     </div>
