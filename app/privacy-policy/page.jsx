@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { ArrowUpRight } from "lucide-react";
+import { ArrowUpRight, Mail, MapPin, Phone } from "lucide-react";
 
 export const metadata = {
     title: "Privacy Policy",
@@ -219,24 +219,43 @@ const sections = [
     {
         title: "Contact Us",
         content: (
-            <>
-                <p>Creative Fox</p>
-                <p>Karachi, Pakistan</p>
+            <div className="space-y-4">
+                <div className="flex items-start gap-3">
+                    <MapPin
+                        size={18}
+                        className="mt-1 shrink-0 text-pink"
+                        aria-hidden="true"
+                    />
+
+                    <p>Karachi, Pakistan</p>
+                </div>
 
                 <a
                     href="mailto:hello@creativefox.io"
-                    className="block transition hover:opacity-70"
+                    className="flex items-center gap-3 transition hover:opacity-70"
                 >
-                    hello@creativefox.io
+                    <Mail
+                        size={18}
+                        className="shrink-0 text-pink"
+                        aria-hidden="true"
+                    />
+
+                    <span>hello@creativefox.io</span>
                 </a>
 
                 <a
                     href="tel:+923372111623"
-                    className="block transition hover:opacity-70"
+                    className="flex items-center gap-3 transition hover:opacity-70"
                 >
-                    +92 337 2111623
+                    <Phone
+                        size={18}
+                        className="shrink-0 text-pink"
+                        aria-hidden="true"
+                    />
+
+                    <span>+92 337 2111623</span>
                 </a>
-            </>
+            </div>
         ),
     },
 ];
