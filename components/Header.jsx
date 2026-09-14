@@ -102,7 +102,7 @@ export default function Header() {
                         className="flex shrink-0 items-center gap-3"
                     >
                         <Image
-                            src="/assets/logo.png"
+                            src="/assets/Logo.png"
                             alt="Creative Fox"
                             width={80}
                             height={80}

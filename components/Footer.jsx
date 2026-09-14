@@ -93,7 +93,7 @@ export default function Footer() {
                                 className="flex shrink-0 items-center gap-3"
                             >
                                 <Image
-                                    src="/assets/logo.png"
+                                    src="/assets/Logo.png"
                                     alt="Next.js"
                                     width={80}
                                     height={80}
