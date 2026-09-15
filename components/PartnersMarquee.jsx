@@ -10,28 +10,29 @@ gsap.registerPlugin(useGSAP);
 
 const partners = [
     {
-        name: "Kiko",
-        image: "/assets/kiko.webp",
+        name: "Low Payment",
+        image: "/assets/low.png",
+        link: "https://www.lowwpayments.com/en",
     },
     {
-        name: "KFC",
-        image: "/assets/kfc.webp",
+        name: "Link Up Dealer",
+        image: "/assets/link-up.png",
+        link: "https://www.linkupdealer.com",
     },
     {
-        name: "Descon",
-        image: "/assets/descon.webp",
+        name: "Merchant Business",
+        image: "/assets/merchant.png",
+        link: "https://www.merchantbusinesses.com",
     },
     {
-        name: "City Lack",
-        image: "/assets/city-lack.webp",
+        name: "Deluxe Packaging",
+        image: "/assets/delux.png",
+        link: "https://deluxe-packageing.netlify.app",
     },
     {
-        name: "The Burger Specialist",
-        image: "/assets/the-burger.webp",
-    },
-    {
-        name: "Domino",
-        image: "/assets/domino.webp",
+        name: "Peptide Therapy",
+        image: "/assets/peptitide.png",
+        link: "https://peptide-therapy.netlify.app",
     },
 ];
 
@@ -134,16 +135,20 @@ function PartnerItem({ partner }) {
     };
 
     return (
-        <div
+        <a
             ref={itemRef}
+            href={partner.link}
+            target="_blank"
+            rel="noopener noreferrer"
             onMouseEnter={handleMouseEnter}
             onMouseLeave={handleMouseLeave}
+            aria-label={`View ${partner.name} project`}
             className="
-        group relative mx-3
-        flex h-30 min-w-67
-        cursor-pointer items-center justify-center
-        overflow-hidden 
-      "
+            group relative mx-3
+            flex h-30 min-w-67
+            cursor-pointer items-center justify-center
+            overflow-hidden
+        "
         >
           
             <span
@@ -175,7 +180,7 @@ function PartnerItem({ partner }) {
                     />
                 </div>
             </div>
-        </div>
+        </a>
     );
 }
 

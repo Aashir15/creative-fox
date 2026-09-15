@@ -233,7 +233,7 @@ export default function Hero() {
           "
                 >
                     <Image
-                        src="/assets/hero.png"
+                        src="/assets/banner.jpg"
                         alt="Digital marketing team working together"
                         fill
                         priority
