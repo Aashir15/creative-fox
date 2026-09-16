@@ -150,7 +150,7 @@ function PartnerItem({ partner }) {
             overflow-hidden
         "
         >
-          
+
             <span
                 ref={textRef}
                 className="
@@ -195,7 +195,7 @@ export default function PartnersMarquee() {
                 </h2>
 
                 <p className="text mt-2">
-                    Hover over a brand name to reveal its logo.
+                    Hover to explore the brand and click to view the project.
                 </p>
             </div>
 

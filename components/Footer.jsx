@@ -30,11 +30,11 @@ const socialLinks = [
         href: "https://www.instagram.com/creativefox.io/",
         icon: "ri-instagram-line",
     },
-    // {
-    //     name: "LinkedIn",
-    //     href: "https://www.linkedin.com/company/cloud-minds-tech-llc",
-    //     icon: "ri-linkedin-fill",
-    // },
+    {
+        name: "LinkedIn",
+        href: "https://www.linkedin.com/company/creative-fox-io",
+        icon: "ri-linkedin-fill",
+    },
     {
         name: "X",
         href: "https://x.com/CreativeFoxIO",

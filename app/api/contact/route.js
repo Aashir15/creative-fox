@@ -1,4 +1,4 @@
-import { NextResponse } from "next/server";
+import nodemailer from "nodemailer";
 
 export async function POST(request) {
     try {
@@ -7,80 +7,59 @@ export async function POST(request) {
         const {
             name,
             email,
-            phone,
             company,
+            website,
             service,
             budget,
             message,
         } = body;
 
         if (!name?.trim() || !email?.trim() || !service || !message?.trim()) {
-            return NextResponse.json(
-                {
-                    success: false,
-                    message: "Please complete all required fields.",
-                },
-                {
-                    status: 400,
-                }
+            return Response.json(
+                { message: "Please fill in all required fields." },
+                { status: 400 }
             );
         }
 
-        const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-
-        if (!emailPattern.test(email)) {
-            return NextResponse.json(
-                {
-                    success: false,
-                    message: "Please provide a valid email address.",
-                },
-                {
-                    status: 400,
-                }
-            );
-        }
-
-        const submission = {
-            name: name.trim(),
-            email: email.trim(),
-            phone: phone?.trim() || "",
-            company: company?.trim() || "",
-            service,
-            budget: budget || "",
-            message: message.trim(),
-            submittedAt: new Date().toISOString(),
-        };
-
-        /*
-          Add Resend, Nodemailer, MongoDB, Sanity,
-          or another service here.
-    
-          For now, the submission appears in your terminal.
-        */
-
-        console.log("New contact inquiry:", submission);
-
-        return NextResponse.json(
-            {
-                success: true,
-                message:
-                    "Your inquiry has been received. Our team will contact you shortly.",
+        const transporter = nodemailer.createTransport({
+            host: process.env.SMTP_HOST,
+            port: Number(process.env.SMTP_PORT),
+            secure: true,
+            auth: {
+                user: process.env.SMTP_USER,
+                pass: process.env.SMTP_PASS,
             },
-            {
-                status: 200,
-            }
-        );
+        });
+
+        await transporter.sendMail({
+            from: `"Creative Fox" <${process.env.SMTP_USER}>`,
+            to: process.env.CONTACT_TO,
+            replyTo: email,
+            subject: `New Project Inquiry — ${name}`,
+            html: `
+                <h2>New Project Inquiry</h2>
+
+                <p><strong>Name:</strong> ${name}</p>
+                <p><strong>Email:</strong> ${email}</p>
+                <p><strong>Company:</strong> ${company || "Not provided"}</p>
+                <p><strong>Website:</strong> ${website || "Not provided"}</p>
+                <p><strong>Service:</strong> ${service}</p>
+                <p><strong>Budget:</strong> ${budget || "Not provided"}</p>
+
+                <h3>Message</h3>
+                <p>${message.replace(/\n/g, "<br>")}</p>
+            `,
+        });
+
+        return Response.json({
+            message: "Thanks! We’ll get back to you shortly.",
+        });
     } catch (error) {
         console.error("Contact form error:", error);
 
-        return NextResponse.json(
-            {
-                success: false,
-                message: "Unable to process your request. Please try again.",
-            },
-            {
-                status: 500,
-            }
+        return Response.json(
+            { message: "Unable to send your message. Please try again." },
+            { status: 500 }
         );
     }
 }
