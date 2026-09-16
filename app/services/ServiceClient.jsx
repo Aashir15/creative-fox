@@ -56,21 +56,21 @@ export default function ServicePage() {
                 </h1>
             </section>
 
-            <section className="mx-auto max-w-7xl px-6 py-16 md:py-22">
-                <div className="relative aspect-16/7 min-h-80 overflow-hidden rounded-[28px] bg-black sm:rounded-[38px]">
+            <section className="mx-auto max-w-7xl px-4 py-16 sm:px-6 md:py-22">
+                <div className="relative aspect-4/5 overflow-hidden rounded-3xl bg-black sm:aspect-16/8 sm:rounded-[38px]">
                     <Image
                         src="/assets/service-cover.avif"
                         alt="Creative Fox digital services"
                         fill
                         priority
-                        sizes="100vw"
-                        className="object-cover"
+                        sizes="(max-width: 640px) 100vw, 1280px"
+                        className="object-cover object-center"
                     />
 
-                    <div className="pointer-events-none absolute inset-0 bg-linear-to-r from-black/45 via-black/10 to-transparent" />
+                    <div className="pointer-events-none absolute inset-0 bg-linear-to-r from-black/55 via-black/15 to-transparent" />
 
-                    <div className="absolute bottom-6 left-6 max-w-lg sm:bottom-10 sm:left-10">
-                        <p className="text-sm font-medium uppercase tracking-[0.15em] text-white/65">
+                    <div className="absolute inset-x-4 bottom-5 max-w-lg sm:inset-x-auto sm:bottom-10 sm:left-10">
+                        <p className="text-xs font-medium uppercase tracking-[0.15em] text-white/65 sm:text-sm">
                             Full-service digital agency
                         </p>
 

@@ -113,24 +113,24 @@ export default async function ServiceDetailsPage({ params }) {
                 </div>
             </section>
 
-            <section className="mx-auto max-w-7xl px-6">
-                <div className="relative aspect-16/8 min-h-90 overflow-hidden rounded-[28px] sm:rounded-[40px]">
+            <section className="mx-auto max-w-7xl px-4 sm:px-6">
+                <div className="relative aspect-4/5 overflow-hidden rounded-3xl sm:aspect-16/8 sm:rounded-[40px]">
                     <Image
                         src={service.showcaseImage}
                         alt={`${service.title} showcase`}
                         fill
                         priority
-                        sizes="100vw"
+                        sizes="(max-width: 640px) 100vw, 1280px"
                         className="object-cover"
                     />
 
-                    <div className="pointer-events-none absolute inset-0 bg-linear-to-t from-black/35 via-transparent to-transparent" />
+                    <div className="pointer-events-none absolute inset-0 bg-linear-to-t from-black/45 via-transparent to-transparent" />
 
-                    <div className="absolute bottom-6 left-6 right-6 flex flex-wrap gap-2 sm:bottom-9 sm:left-9">
+                    <div className="absolute inset-x-4 bottom-4 flex flex-wrap gap-2 sm:inset-x-9 sm:bottom-9">
                         {service.highlights.map((highlight) => (
                             <span
                                 key={highlight}
-                                className="rounded-full border border-white/25 bg-black/25 px-4 py-2 text-xs font-medium text-white backdrop-blur-xl"
+                                className="rounded-full border border-white/25 bg-black/25 px-3 py-1.5 text-[11px] font-medium text-white backdrop-blur-xl sm:px-4 sm:py-2 sm:text-xs"
                             >
                                 {highlight}
                             </span>
