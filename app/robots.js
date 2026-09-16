@@ -1,5 +1,5 @@
 const siteUrl =
-    process.env.NEXT_PUBLIC_SITE_URL || "https://www.yourdomain.com";
+    process.env.NEXT_PUBLIC_SITE_URL || "https://creativefox.io";
 
 export default function robots() {
     return {

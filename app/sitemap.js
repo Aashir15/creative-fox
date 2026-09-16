@@ -3,7 +3,7 @@ import { blogPosts } from "../data/blogPosts";
 import { portfolio } from "../data/portfolio";
 
 const siteUrl = (
-    process.env.NEXT_PUBLIC_SITE_URL || "https://yourdomain.com"
+    process.env.NEXT_PUBLIC_SITE_URL || "https://creativefox.io"
 ).replace(/\/$/, "");
 
 export default function sitemap() {
