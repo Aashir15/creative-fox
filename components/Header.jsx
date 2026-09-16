@@ -21,7 +21,7 @@ const navLinks = [
     { label: "About Us", href: "/about-us" },
     { label: "Case Studies", href: "/case-studies" },
     { label: "Blog", href: "/blog" },
-    { label: "Contact Us", href: "/contact-us" },
+    // { label: "Contact Us", href: "/contact-us" },
 ];
 
 const categoryIcons = {
