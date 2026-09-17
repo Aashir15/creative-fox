@@ -417,7 +417,7 @@ export default function Header() {
                         ))}
 
                         <div className="mt-2">
-                            <PrimaryBtn href="/contact-us">
+                            <PrimaryBtn href="/contact-us" onClick={closeMenu}>
                                 Get Started
                             </PrimaryBtn>
                         </div>

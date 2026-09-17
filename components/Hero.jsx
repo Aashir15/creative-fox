@@ -179,7 +179,7 @@ export default function Hero() {
                     <h1 className="heading">
                         <span className="block overflow-hidden">
                             <span className="hero-title-line block">
-                                Leading Full-Service
+                                Leading Full Service
                             </span>
                         </span>
 
@@ -226,19 +226,19 @@ export default function Hero() {
                 <div
                     ref={imageRef}
                     className="
-            relative h-77 overflow-hidden rounded-[22px]
-            will-change-transform
-            sm:h-107 sm:rounded-[28px]
-            lg:h-125
-          "
+        relative overflow-hidden rounded-[22px]
+        will-change-transform
+        sm:rounded-[28px]
+    "
                 >
                     <Image
-                        src="/assets/banner.jpg"
+                        src="/assets/Leading-Full-Service.jpeg"
                         alt="Digital marketing team working together"
-                        fill
+                        width={1600}
+                        height={650}
                         priority
                         sizes="(max-width: 640px) 100vw, (max-width: 1024px) 95vw, 1400px"
-                        className="object-cover"
+                        className="h-auto w-full"
                     />
 
                     <div className="pointer-events-none absolute inset-0 bg-linear-to-t from-black/20 via-transparent to-transparent" />

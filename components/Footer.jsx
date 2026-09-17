@@ -40,6 +40,11 @@ const socialLinks = [
         href: "https://x.com/CreativeFoxIO",
         icon: "ri-twitter-x-fill",
     },
+    {
+        name: "TikTok",
+        href: "https://www.tiktok.com/@creativefox.io",
+        icon: "ri-tiktok-fill",
+    },
 ];
 
 export default function Footer() {

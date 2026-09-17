@@ -158,7 +158,7 @@ export default async function ServiceDetailsPage({ params }) {
             </section>
 
             <section>
-                <div className="mx-auto max-w-7xl px-6 py-16 md:py-22">
+                <div className="mx-auto max-w-7xl px-6 pb-16 md:py-22">
                     <div className="max-w-4xl">
                         <span className="badge">Why it matters</span>
 
