@@ -1,7 +1,7 @@
 export const blogPosts = [
     {
         slug: "how-to-build-a-high-converting-business-website",
-        title: "How to Build a High-Converting Business Website",
+        title: "How to Build a High Converting Business Website",
         excerpt:
             "Learn the key elements that turn a modern business website into a powerful tool for generating leads, building trust, and driving growth.",
         category: "Web Design",
@@ -106,7 +106,7 @@ export const blogPosts = [
             },
             {
                 type: "paragraph",
-                text: "Good UI/UX should connect customer needs with business objectives. The best experiences help users accomplish their goals while naturally supporting conversions, retention, and long-term growth.",
+                text: "Good UI/UX should connect customer needs with business objectives. The best experiences help users accomplish their goals while naturally supporting conversions, retention, and long term growth.",
             },
         ],
     },
@@ -211,9 +211,9 @@ export const blogPosts = [
 
     {
         slug: "custom-software-vs-off-the-shelf-solutions",
-        title: "Custom Software vs Off-the-Shelf Solutions",
+        title: "Custom Software vs Off the Shelf Solutions",
         excerpt:
-            "Compare custom software with ready-made platforms and understand which approach may be better for your business, workflow, and growth plans.",
+            "Compare custom software with ready made platforms and understand which approach may be better for your business, workflow, and growth plans.",
         category: "Development",
         date: "2026-06-30",
         readingTime: "5 min read",
@@ -227,11 +227,11 @@ export const blogPosts = [
             },
             {
                 type: "heading",
-                text: "When ready-made software makes sense",
+                text: "When ready made software makes sense",
             },
             {
                 type: "paragraph",
-                text: "Off-the-shelf tools can be a strong choice when your requirements are common, budgets are limited, and getting started quickly is more important than complete customization.",
+                text: "Off the shelf tools can be a strong choice when your requirements are common, budgets are limited, and getting started quickly is more important than complete customization.",
             },
             {
                 type: "heading",
@@ -243,7 +243,7 @@ export const blogPosts = [
                     "Your workflow is unique or complex",
                     "Existing tools create operational limitations",
                     "You need integrations with internal systems",
-                    "Scalability and ownership are long-term priorities",
+                    "Scalability and ownership are long term priorities",
                 ],
             },
             {

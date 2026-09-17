@@ -14,7 +14,7 @@ export const metadata = {
     openGraph: {
         title: "Terms & Conditions | Creative Fox",
         description:
-            "Review the terms governing use of the Creative Fox website, including intellectual property, acceptable use, third-party services, and legal responsibilities.",
+            "Review the terms governing use of the Creative Fox website, including intellectual property, acceptable use, third party services, and legal responsibilities.",
         url: "/terms-and-conditions",
         type: "website",
     },
@@ -75,11 +75,11 @@ const sections = [
         ),
     },
     {
-        title: "Portfolio and Third-Party Materials",
+        title: "Portfolio and Third Party Materials",
         content: (
             <p>
                 Client names, logos, screenshots, trademarks and other
-                third-party materials shown in our portfolio remain the
+                third party materials shown in our portfolio remain the
                 property of their respective owners. Their display is for the
                 purpose of describing work performed or capabilities, subject
                 to the relevant permissions and agreements.
@@ -117,18 +117,18 @@ const sections = [
         content: (
             <p>
                 We aim to keep Website information useful and current, but we
-                do not guarantee that all content is complete, error-free or
+                do not guarantee that all content is complete, error free or
                 continuously available. Services, examples, team information
                 and Website features may change without notice.
             </p>
         ),
     },
     {
-        title: "Third-Party Services and Links",
+        title: "Third Party Services and Links",
         content: (
             <p>
                 The Website may contain links to or integrations with
-                third-party services. We are not responsible for third-party
+                third party services. We are not responsible for third party
                 websites, content, availability, security or practices.
             </p>
         ),
@@ -174,7 +174,7 @@ const sections = [
         content: (
             <p>
                 These Terms are governed by the laws of [Governing
-                Jurisdiction], without regard to conflict-of-law rules. The
+                Jurisdiction], without regard to conflict of law rules. The
                 courts located in [Venue] will have jurisdiction over disputes
                 relating to these Website Terms, unless mandatory law requires
                 otherwise.

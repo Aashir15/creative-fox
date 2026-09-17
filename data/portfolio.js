@@ -126,7 +126,7 @@ export const portfolio = [
         background: "bg-[#f3e4ea]",
 
         description:
-            "An AI-powered family assistant designed to simplify everyday planning, keep everyone connected, and make busy family life easier to manage.",
+            "An AI powered family assistant designed to simplify everyday planning, keep everyone connected, and make busy family life easier to manage.",
 
         challenge:
             "Managing family schedules, daily tasks, and responsibilities can feel overwhelming. The challenge was to bring these needs into one welcoming app that feels simple and accessible for the whole family.",
@@ -187,7 +187,7 @@ export const portfolio = [
         ],
 
         results: [
-            { value: "Clarity", label: "Easy-to-explore agency services" },
+            { value: "Clarity", label: "Easy to explore agency services" },
             { value: "Trust", label: "Project showcases that demonstrate expertise" },
             { value: "Connect", label: "A clear path from browsing to inquiry" },
         ],
@@ -204,13 +204,13 @@ export const portfolio = [
         background: "bg-[#dfeaf8]",
 
         description:
-            "A soccer-focused mobile app designed to bring the energy of the game into a simple, engaging experience for fans.",
+            "A soccer focused mobile app designed to bring the energy of the game into a simple, engaging experience for fans.",
 
         challenge:
             "The challenge was to create an app that captures the excitement of soccer while keeping content organized, navigation intuitive, and every screen easy to explore.",
 
         solution:
-            "We designed a sports-inspired mobile interface with bold typography, clear visual hierarchy, and streamlined navigation. The experience balances an energetic look with readable content and accessible controls.",
+            "We designed a sports inspired mobile interface with bold typography, clear visual hierarchy, and streamlined navigation. The experience balances an energetic look with readable content and accessible controls.",
 
         gallery: [
             "/assets/soccer-2.jpg",
@@ -219,7 +219,7 @@ export const portfolio = [
 
         results: [
             { value: "Explore", label: "Intuitive navigation for soccer fans" },
-            { value: "Focus", label: "Clear, easy-to-scan content" },
+            { value: "Focus", label: "Clear, easy to scan content" },
             { value: "Energy", label: "Visual design inspired by the game" },
         ],
     },
@@ -275,7 +275,7 @@ export const portfolio = [
             "Campus information can be difficult to navigate across different pages and resources. The challenge was to design an approachable chat experience that helps students ask questions and understand the answers.",
 
         solution:
-            "We designed a conversation-focused interface with clear message layouts, intuitive navigation, and easy-to-follow interactions. The experience puts student questions at the center and makes campus guidance easier to explore.",
+            "We designed a conversation focused interface with clear message layouts, intuitive navigation, and easy to follow interactions. The experience puts student questions at the center and makes campus guidance easier to explore.",
 
         gallery: [
             "/assets/campus-2.jpg",
@@ -287,7 +287,7 @@ export const portfolio = [
 
         results: [
             { value: "Ask", label: "An approachable way to ask campus questions" },
-            { value: "Find", label: "Student-focused information discovery" },
+            { value: "Find", label: "Student focused information discovery" },
             { value: "Clarity", label: "Readable, organized conversations" },
         ],
     },

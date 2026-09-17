@@ -26,16 +26,16 @@ const stats = [
     {
         value: 100,
         suffix: "%",
-        label: "Strategy-led and tailored execution",
+        label: "Strategy led and tailored execution",
     },
 ];
 
 const reasons = [
     "One team across design, development and marketing.",
-    "Strategy-led execution instead of one-size-fits-all solutions.",
+    "Strategy led execution instead of one size fits all solutions.",
     "Modern tools and scalable technology.",
     "Clear communication and structured project delivery.",
-    "Long-term support beyond launch.",
+    "Long term support beyond launch.",
 ];
 
 function AnimatedCounter({ value, suffix }) {
@@ -180,7 +180,7 @@ export default function AboutUs() {
 
                     <p className="about-description mt-6 max-w-3xl text-lg leading-relaxed text-grey md:text-xl">
                         We combine creative thinking, technology and performance
-                        marketing to help businesses compete in a digital-first world.
+                        marketing to help businesses compete in a digital first world.
                     </p>
 
                     <div className="about-button">
@@ -228,7 +228,7 @@ export default function AboutUs() {
                             </h2>
 
                             <p className="mt-7 max-w-3xl text-lg leading-relaxed text-grey md:text-xl">
-                                We are a Pakistan-based digital agency working with
+                                We are a Pakistan based digital agency working with
                                 businesses and teams internationally. Our expertise
                                 spans branding, UI/UX design, web and software
                                 development, mobile apps and digital marketing.
@@ -284,7 +284,7 @@ export default function AboutUs() {
                                 We believe great digital work happens when design,
                                 technology and marketing work together. Instead of
                                 treating each service as a separate task, we connect
-                                the entire customer journey — from first impression to
+                                the entire customer journey from first impression to
                                 conversion and growth.
                             </p>
                         </div>
@@ -331,7 +331,7 @@ export default function AboutUs() {
                         <span className="badge">Our Mission</span>
 
                         <h2 className="heading mt-6">
-                            To help ambitious businesses turn ideas into high-quality
+                            To help ambitious businesses turn ideas into high quality
                             digital experiences that look better, work better and
                             perform better.
                         </h2>

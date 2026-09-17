@@ -5,7 +5,7 @@ export const serviceCategories = [
         services: [
             "CMS Website Development",
             "Mobile App Development",
-            "E-commerce Development",
+            "E commerce Development",
             // "Product Development",
             "Software Development",
             "Quality Assurance",
@@ -37,7 +37,7 @@ export const services = [
         category: "Development",
 
         excerpt:
-            "Simplify website management with our custom CMSwebsite development services. We specialize in developing scalable, user-friendly websites using platforms like WordPress, and headless CMSsolutions. Whether you need a corporate site, blog, or dynamic content platform, our CMS experts deliver responsive, SEO-optimized websites that give you full control without technical hassle.",
+            "Simplify website management with our custom CMSwebsite development services. We specialize in developing scalable, user friendly websites using platforms like WordPress, and headless CMSsolutions. Whether you need a corporate site, blog, or dynamic content platform, our CMS experts deliver responsive, SEO optimized websites that give you full control without technical hassle.",
 
         description:
             "We build flexible CMS websites that give your team complete control over content without sacrificing design, performance or search visibility.",
@@ -51,27 +51,27 @@ export const services = [
             "Scalable content architecture",
             "Simple content management",
             "Responsive user experience",
-            "SEO-friendly development",
+            "SEO friendly development",
         ],
 
         intro: {
             eyebrow: "Content without limitations",
             title: "Systematize your website with a powerful CMS.",
             text:
-                "Our CMS solutions make complex content easier to organize, update and scale. Every platform is designed around your internal workflow, customer journey and long-term growth.",
+                "Our CMS solutions make complex content easier to organize, update and scale. Every platform is designed around your internal workflow, customer journey and long term growth.",
         },
 
         platforms: [
             {
                 title: "WordPress Development",
                 description:
-                    "As a leading WordPress website development company inPakistan, we create lightning-fast, mobile-optimized sites with full backend control. Whether it’s a custom theme, a unique plugin, or an enterprise-grade portal, our customWordPress development team delivers results that rank and scale.",
+                    "As a leading WordPress website development company inPakistan, we create lightning fast, mobile optimized sites with full backend control. Whether it’s a custom theme, a unique plugin, or an enterprise grade portal, our customWordPress development team delivers results that rank and scale.",
                 image: "/assets/cms-services-1.jpg",
             },
             {
                 title: "Joomla Development",
                 description:
-                    "Need a robust, modular website for your business? Our Joomla development company offers custom Joomla templates, plugin integration, and full-scale Joomla component development. We’ve helped brands migrate,build, and scale their platforms with ease.",
+                    "Need a robust, modular website for your business? Our Joomla development company offers custom Joomla templates, plugin integration, and full scale Joomla component development. We’ve helped brands migrate,build, and scale their platforms with ease.",
                 image: "/assets/cms-services-2.jpg",
 
             },
@@ -114,7 +114,7 @@ export const services = [
             "Retail",
             "Nonprofits",
             "B2B",
-            "E-commerce",
+            "E commerce",
         ],
 
         benefits: [
@@ -162,10 +162,10 @@ export const services = [
         category: "Development",
 
         excerpt:
-            "Transform your ideas into powerful mobile experiences with our custom mobile app development services. We design and develop fast, scalable, and user-friendly applications for iOS and Android. Whether you need a business app, e-commerce platform, customer portal, or feature-rich digital product, our mobile app developers deliver secure, responsive solutions built around your users and business goals.",
+            "Transform your ideas into powerful mobile experiences with our custom mobile app development services. We design and develop fast, scalable, and user friendly applications for iOS and Android. Whether you need a business app, e commerce platform, customer portal, or feature rich digital product, our mobile app developers deliver secure, responsive solutions built around your users and business goals.",
 
         description:
-            "We build high-performance mobile applications that combine intuitive user experiences, scalable technology and reliable functionality across iOS and Android devices.",
+            "We build high performance mobile applications that combine intuitive user experiences, scalable technology and reliable functionality across iOS and Android devices.",
 
         heroImage: "/assets/app-services.jpg",
         showcaseImage: "/assets/app-services-1.jpg",
@@ -183,20 +183,20 @@ export const services = [
             eyebrow: "Mobile experiences that perform",
             title: "Turn your ideas into powerful mobile applications.",
             text:
-                "Our mobile app development solutions transform business ideas into intuitive, reliable and scalable digital products. Every application is designed around your users, business objectives and long-term growth.",
+                "Our mobile app development solutions transform business ideas into intuitive, reliable and scalable digital products. Every application is designed around your users, business objectives and long term growth.",
         },
 
         platforms: [
             {
                 title: "iOS App Development",
                 description:
-                    "From consumer-facing iPhone apps to secure enterprisesolutions, our iOS app development services combinesleek design with stable performance. We specialize inSwift and SwiftUI, ensuring your app feels premium andfunctions flawlessly across iPhones and iPads.",
+                    "From consumer facing iPhone apps to secure enterprise solutions, our iOS app development services combine sleek design with stable performance. We specialize inSwift and SwiftUI, ensuring your app feels premium and functions flawlessly across iPhones and iPads.",
                 image: "/assets/app-services-2.jpg",
             },
             {
                 title: "Android App Development",
                 description:
-                    "Reach the world's largest mobile audience with customAndroid app development. Our team builds fast, secure,and scalable Android apps using Kotlin and Java, tailoredfor every Android screen size, version, and hardwarerequirement. From startup MVPs to enterprise apps, we’vedone it all.",
+                    "Reach the world's largest mobile audience with customAndroid app development. Our team builds fast, secure,and scalable Android apps using Kotlin and Java, tailored for every Android screen size, version, and hardware equipment. From startup MVPs to enterprise apps, we’vedone it all.",
                 image: "/assets/app-services-3.jpg",
             },
         ],
@@ -238,7 +238,7 @@ export const services = [
             "Retail",
             "Nonprofits",
             "B2B",
-            "E-commerce",
+            "E commerce",
         ],
 
         benefits: [
@@ -263,12 +263,12 @@ export const services = [
             {
                 question: "Which mobile platforms do you develop for?",
                 answer:
-                    "We develop mobile applications for iOS and Android, including native and cross-platform solutions depending on your project requirements.",
+                    "We develop mobile applications for iOS and Android, including native and cross platform solutions depending on your project requirements.",
             },
             {
                 question: "Can you develop both the app and backend?",
                 answer:
-                    "Yes. We can handle the complete development process, including mobile interfaces, backend systems, APIs, databases and third-party integrations.",
+                    "Yes. We can handle the complete development process, including mobile interfaces, backend systems, APIs, databases and third party integrations.",
             },
             {
                 question: "Can you redesign or improve an existing mobile app?",
@@ -281,15 +281,15 @@ export const services = [
     {
         id: 3,
         slug: "e-commerce-development",
-        title: "E-commerce Development",
-        shortTitle: "E-commerce Services",
+        title: "E commerce Development",
+        shortTitle: "E commerce Services",
         category: "Development",
 
         excerpt:
-            "Build an online store designed to attract customers, simplify shopping, and increase sales with our e-commerce development services. We create fast, secure, and scalable e-commerce websites using platforms like Shopify and WooCommerce. From product catalogs and payment integrations to custom storefronts and order management, our e-commerce developers build seamless shopping experiences around your business goals.",
+            "Build an online store designed to attract customers, simplify shopping, and increase sales with our e commerce development services. We create fast, secure, and scalable e commerce websites using platforms like Shopify and WooCommerce. From product catalogs and payment integrations to custom storefronts and order management, our e commerce developers build seamless shopping experiences around your business goals.",
 
         description:
-            "We build conversion-focused e-commerce stores that combine intuitive shopping experiences, reliable technology and scalable functionality.",
+            "We build conversion focused e commerce stores that combine intuitive shopping experiences, reliable technology and scalable functionality.",
 
         heroImage: "/assets/e-com-services.jpg",
         showcaseImage: "/assets/e-com-services-1.jpg",
@@ -297,30 +297,30 @@ export const services = [
         accent: "bg-[#f3e8ff]",
 
         highlights: [
-            "Conversion-focused storefronts",
+            "Conversion focused storefronts",
             "Secure payment integrations",
             "Responsive shopping experience",
-            "Scalable e-commerce architecture",
+            "Scalable e commerce architecture",
         ],
 
         intro: {
             eyebrow: "Commerce built to convert",
             title: "Turn more visitors into loyal customers.",
             text:
-                "Our e-commerce solutions make it easier for customers to discover products, complete purchases and return for more. Every store is designed around your products, customer journey and long-term sales growth.",
+                "Our e commerce solutions make it easier for customers to discover products, complete purchases and return for more. Every store is designed around your products, customer journey and long term sales growth.",
         },
 
         platforms: [
             {
                 title: "Shopify Development",
                 description:
-                    "We build beautiful, high-performance Shopify stores designed to convert. Whether you're starting from scratch,migrating from another platform, or customizing an existing theme, our Shopify developers deliver pixel-perfect storefronts with smooth integrations.",
+                    "We build beautiful, high performance Shopify stores designed to convert. Whether you're starting from scratch,migrating from another platform, or customizing an existing theme, our Shopify developers deliver pixel perfect storefronts with smooth integrations.",
                 image: "/assets/e-com-services-2.jpg",
             },
             {
                 title: "WooCommerce Development",
                 description:
-                    "Looking for a flexible and powerful WordPress-based store? We build custom WooCommerce websites that combine functionality with freedom. Our WooCommerce experts craft secure, fast, and mobile-friendly online stores tailored to your business model.",
+                    "Looking for a flexible and powerful WordPress based store? We build custom WooCommerce websites that combine functionality with freedom. Our WooCommerce experts craft secure, fast, and mobile friendly online stores tailored to your business model.",
                 image: "/assets/e-com-services-3.jpg",
             },
         ],
@@ -340,9 +340,9 @@ export const services = [
             },
             {
                 number: "03",
-                title: "E-commerce development",
+                title: "E commerce development",
                 text:
-                    "We develop your storefront, product system, payments, integrations and essential e-commerce functionality.",
+                    "We develop your storefront, product system, payments, integrations and essential e commerce functionality.",
             },
             {
                 number: "04",
@@ -374,7 +374,7 @@ export const services = [
             {
                 title: "Ready to scale",
                 text:
-                    "Flexible e-commerce architecture supports growing catalogs, traffic, integrations and business operations.",
+                    "Flexible e commerce architecture supports growing catalogs, traffic, integrations and business operations.",
             },
             {
                 title: "Simple store management",
@@ -385,146 +385,22 @@ export const services = [
 
         faq: [
             {
-                question: "Which e-commerce platforms do you work with?",
+                question: "Which e commerce platforms do you work with?",
                 answer:
-                    "We develop e-commerce stores using Shopify, WooCommerce and custom solutions depending on your business requirements.",
+                    "We develop e commerce stores using Shopify, WooCommerce and custom solutions depending on your business requirements.",
             },
             {
-                question: "Can you migrate my existing e-commerce store?",
+                question: "Can you migrate my existing e commerce store?",
                 answer:
                     "Yes. We can migrate products, customers, content and essential store data while minimizing disruption to your business.",
             },
             {
                 question: "Can I manage products and orders myself?",
                 answer:
-                    "Yes. We build manageable e-commerce systems that allow your team to update products, process orders and manage everyday store operations.",
+                    "Yes. We build manageable e commerce systems that allow your team to update products, process orders and manage everyday store operations.",
             },
         ],
     },
-
-    // {
-    //     id: 4,
-    //     slug: "product-development",
-    //     title: "Product Development",
-    //     shortTitle: "Product Development Services",
-    //     category: "Development",
-
-    //     excerpt:
-    //         "Turn your digital product idea into a scalable, market-ready solution with our product development services. From early-stage concepts and MVPs to full-scale platforms, we combine product strategy, UI/UX design, development, testing, and continuous improvement to create digital products that solve real user problems and support sustainable business growth.",
-
-    //     description:
-    //         "We transform product ideas into intuitive, scalable digital experiences through strategy, design, development and continuous iteration.",
-
-    //     heroImage: "/assets/product-development-services.avif",
-    //     showcaseImage: "/assets/product-development-services-3.webp",
-
-    //     accent: "bg-[#f3e8ff]",
-
-    //     highlights: [
-    //         "Product strategy & planning",
-    //         "MVP development",
-    //         "User-centered experiences",
-    //         "Scalable product architecture",
-    //     ],
-
-    //     intro: {
-    //         eyebrow: "Ideas built for the real world",
-    //         title: "Transform your vision into a market-ready product.",
-    //         text:
-    //             "Our product development approach combines business strategy, user needs and reliable technology. We help you validate ideas, prioritize features and build products designed to evolve with your customers and business.",
-    //     },
-
-    //     platforms: [
-    //         {
-    //             title: "MVP Development",
-    //             description:
-    //                 "Validate your product idea faster with a focused minimum viable product. We identify essential features, design the core user experience, build scalable foundations, and help you launch quickly so you can gather real feedback before making larger investments.",
-    //             image: "/assets/product-development-services-1.avif",
-    //         },
-    //         {
-    //             title: "Full-Scale Product Development",
-    //             description:
-    //                 "Take your digital product from validated concept to a complete platform. We combine product strategy, interface design, frontend and backend development, integrations, testing, and optimization to create reliable products prepared for long-term growth.",
-    //             image: "/assets/product-development-services-2.avif",
-    //         },
-    //     ],
-
-    //     process: [
-    //         {
-    //             number: "01",
-    //             title: "Product discovery",
-    //             text:
-    //                 "We define your users, business goals, market opportunity and the core problem your product needs to solve.",
-    //         },
-    //         {
-    //             number: "02",
-    //             title: "Strategy & experience",
-    //             text:
-    //                 "We prioritize features, map user journeys and design an intuitive experience around the product vision.",
-    //         },
-    //         {
-    //             number: "03",
-    //             title: "Product development",
-    //             text:
-    //                 "We build scalable frontend, backend and integration layers using technology suited to your requirements.",
-    //         },
-    //         {
-    //             number: "04",
-    //             title: "Launch & iteration",
-    //             text:
-    //                 "We test, launch, measure feedback and continuously improve the product based on real user behavior.",
-    //         },
-    //     ],
-
-    //     industries: [
-    //         "Startups",
-    //         "Healthcare",
-    //         "Fintech",
-    //         "Education",
-    //         "E-commerce",
-    //         "Real Estate",
-    //         "Logistics",
-    //         "Travel",
-    //         "SaaS",
-    //         "Enterprise",
-    //     ],
-
-    //     benefits: [
-    //         {
-    //             title: "Faster validation",
-    //             text:
-    //                 "Focused product planning helps you test important assumptions before investing in unnecessary functionality.",
-    //         },
-    //         {
-    //             title: "User-driven development",
-    //             text:
-    //                 "Every feature and interaction is shaped around actual user needs and meaningful business outcomes.",
-    //         },
-    //         {
-    //             title: "Built for growth",
-    //             text:
-    //                 "Scalable foundations make it easier to introduce new functionality, integrations and users as your product evolves.",
-    //         },
-    //     ],
-
-    //     faq: [
-    //         {
-    //             question: "Can you help develop an MVP?",
-    //             answer:
-    //                 "Yes. We can take your idea through strategy, feature prioritization, design, development, testing and MVP launch.",
-    //         },
-    //         {
-    //             question: "Can you work with an existing product?",
-    //             answer:
-    //                 "Yes. We can improve, redesign, rebuild or expand an existing digital product based on its current challenges and future goals.",
-    //         },
-    //         {
-    //             question: "Do you provide product strategy as well as development?",
-    //             answer:
-    //                 "Yes. Our product development process can include research, strategy, UX planning, design, technical development and post-launch iteration.",
-    //         },
-    //     ],
-    // },
 
     {
         id: 5,
@@ -534,10 +410,10 @@ export const services = [
         category: "Development",
 
         excerpt:
-            "Solve complex business challenges with custom software development tailored to your workflows, users, and growth plans. We design and develop secure, scalable software solutions for startups, growing businesses, and enterprises. From internal management systems and customer platforms to cloud-based applications and custom integrations, our developers turn business requirements into reliable digital systems.",
+            "Solve complex business challenges with custom software development tailored to your workflows, users, and growth plans. We design and develop secure, scalable software solutions for startups, growing businesses, and enterprises. From internal management systems and customer platforms to cloud based applications and custom integrations, our developers turn business requirements into reliable digital systems.",
 
         description:
-            "We develop secure, scalable custom software that simplifies operations, connects systems and supports long-term business growth.",
+            "We develop secure, scalable custom software that simplifies operations, connects systems and supports long term business growth.",
 
         heroImage: "/assets/software-services.jpg",
         showcaseImage: "/assets/software-services-1.jpg",
@@ -547,7 +423,7 @@ export const services = [
         highlights: [
             "Custom software solutions",
             "Scalable system architecture",
-            "Third-party integrations",
+            "Third party integrations",
             "Secure development practices",
         ],
 
@@ -562,13 +438,13 @@ export const services = [
             {
                 title: "Web Application Development",
                 description:
-                    "As a top custom software development company, we specialize in building responsive, high-performance we band mobile apps. Whether you’re launching a consumer app or an internal platform, our dedicated software development team ensures it’s secure, scalable, and lightning fast.",
+                    "As a top custom software development company, we specialize in building responsive, high performance we band mobile apps. Whether you’re launching a consumer app or an internal platform, our dedicated software development team ensures it’s secure, scalable, and lightning fast.",
                 image: "/assets/software-services-2.jpg",
             },
             {
                 title: "SaaS Product Development",
                 description:
-                    "Looking to build a SaaS platform? Our software development agency helps startups and product teams design, develop, and launch cloud-based SaaS applications with modern architecture and flexible subscriptions. We’re one of the few custom software development companies in Pakistan with deep SaaS experience.",
+                    "Looking to build a SaaS platform? Our software development agency helps startups and product teams design, develop, and launch cloud based SaaS applications with modern architecture and flexible subscriptions. We’re one of the few custom software development companies in Pakistan with deep SaaS experience.",
                 image: "/assets/software-services-3.jpg",
             },
         ],
@@ -640,7 +516,7 @@ export const services = [
             {
                 question: "Can you integrate software with our existing systems?",
                 answer:
-                    "Yes. We can connect your software with third-party APIs, databases, CRMs, payment platforms and existing business systems.",
+                    "Yes. We can connect your software with third party APIs, databases, CRMs, payment platforms and existing business systems.",
             },
             {
                 question: "Do you provide support after deployment?",
@@ -671,7 +547,7 @@ export const services = [
         highlights: [
             "Functional software testing",
             "Performance validation",
-            "Cross-device compatibility",
+            "Cross device compatibility",
             "Reliable release quality",
         ],
 
@@ -728,7 +604,7 @@ export const services = [
             "Healthcare",
             "Fintech",
             "Education",
-            "E-commerce",
+            "e commerce",
             "Real Estate",
             "Travel",
             "SaaS",
@@ -810,13 +686,13 @@ export const services = [
             {
                 title: "Creative Strategy",
                 description:
-                    "We start with storytelling — powered by data. Our creativesocial media strategy blends design thinking, audienceinsights, and competitive positioning to developscroll-stopping content tailored to your brand voice. Frommonthly content calendars to viral campaign ideas, weensure your brand stays relevant and resonant.",
+                    "We start with storytelling powered by data. Our creative social media strategy blends design thinking, audience insights, and competitive positioning to develop scroll stopping content tailored to your brand voice. From monthly content calendars to viral campaign ideas, we ensure your brand stays relevant and resonant.",
                 image: "/assets/social-2.jpg",
             },
             {
                 title: "Campaign Management",
                 description:
-                    "Launching a new product? Running a seasonal sale? Ourcampaign management team handles everything —timelines, assets, targeting, performance, and reporting.Whether it's organic or paid, we craft full-funnelcampaigns across Facebook, Instagram, LinkedIn, TikTok,and more.",
+                    "Launching a new product? Running a seasonal sale? Our campaign management team handles everything timelines, assets, targeting, performance, and reporting.Whether it's organic or paid, we craft full funnel campaigns across Facebook, Instagram, LinkedIn, TikTok,and more.",
                 image: "/assets/social-3.jpg",
             },
         ],
@@ -856,7 +732,7 @@ export const services = [
             "Beauty",
             "Real Estate",
             "Education",
-            "E-commerce",
+            "e commerce",
         ],
 
         benefits: [
@@ -899,10 +775,10 @@ export const services = [
         category: "Digital Marketing",
 
         excerpt:
-            "Improve your search visibility and attract customers actively looking for your products or services with our SEO services. We combine technical SEO, keyword strategy, on-page optimization, content improvements, and authority building to strengthen your organic presence. Our SEO approach focuses on sustainable rankings, relevant traffic, and measurable business growth rather than short-term visibility.",
+            "Improve your search visibility and attract customers actively looking for your products or services with our SEO services. We combine technical SEO, keyword strategy, on page optimization, content improvements, and authority building to strengthen your organic presence. Our SEO approach focuses on sustainable rankings, relevant traffic, and measurable business growth rather than short term visibility.",
 
         description:
-            "We improve organic search visibility through technical optimization, strategic content and data-driven SEO focused on sustainable growth.",
+            "We improve organic search visibility through technical optimization, strategic content and data driven SEO focused on sustainable growth.",
 
         heroImage: "/assets/seo-services.jpg",
         showcaseImage: "/assets/seo-services-1.jpg",
@@ -910,7 +786,7 @@ export const services = [
         accent: "bg-[#f3e8ff]",
 
         highlights: [
-            "Keyword-driven strategy",
+            "Keyword driven strategy",
             "Technical SEO optimization",
             "Organic traffic growth",
             "Search visibility improvements",
@@ -920,14 +796,14 @@ export const services = [
             eyebrow: "Be found when customers search",
             title: "Turn organic search into sustainable growth.",
             text:
-                "Our SEO strategies help search engines understand your website and customers discover your business. We combine technical improvements, relevant content and continuous optimization to build stronger long-term organic visibility.",
+                "Our SEO strategies help search engines understand your website and customers discover your business. We combine technical improvements, relevant content and continuous optimization to build stronger long term organic visibility.",
         },
 
         platforms: [
             {
-                title: "On-Page SEO",
+                title: "On Page SEO",
                 description:
-                    "Improve the relevance and search performance of your website with structured on-page optimization. We refine page titles, metadata, headings, internal linking, keyword targeting, content structure, and user experience to help important pages compete for valuable searches.",
+                    "Improve the relevance and search performance of your website with structured on page optimization. We refine page titles, metadata, headings, internal linking, keyword targeting, content structure, and user experience to help important pages compete for valuable searches.",
                 image: "/assets/seo-services-2.jpg",
             },
             {
@@ -974,7 +850,7 @@ export const services = [
             "SaaS",
             "Retail",
             "B2B",
-            "E-commerce",
+            "e commerce",
             "Professional Services",
         ],
 
@@ -987,10 +863,10 @@ export const services = [
             {
                 title: "More qualified traffic",
                 text:
-                    "Intent-focused keyword targeting attracts visitors who are actively searching for what your business provides.",
+                    "Intent focused keyword targeting attracts visitors who are actively searching for what your business provides.",
             },
             {
-                title: "Long-term growth",
+                title: "Long term growth",
                 text:
                     "A stronger organic presence can continue generating visibility and traffic beyond individual advertising campaigns.",
             },
@@ -1000,7 +876,7 @@ export const services = [
             {
                 question: "How long does SEO take to show results?",
                 answer:
-                    "SEO is a long-term strategy. Initial improvements can appear earlier, but meaningful ranking and traffic growth typically develops over several months depending on competition and website condition.",
+                    "SEO is a long term strategy. Initial improvements can appear earlier, but meaningful ranking and traffic growth typically develops over several months depending on competition and website condition.",
             },
             {
                 question: "Do you provide technical SEO?",
@@ -1023,10 +899,10 @@ export const services = [
         category: "Digital Marketing",
 
         excerpt:
-            "Reach high-intent customers at the moment they search with our search engine marketing services. We plan, launch, manage, and optimize paid search campaigns designed around measurable business goals. From keyword research and campaign structure to ad copy, bidding, landing pages, and conversion tracking, our SEM specialists focus your advertising budget on traffic that can drive real results.",
+            "Reach high intent customers at the moment they search with our search engine marketing services. We plan, launch, manage, and optimize paid search campaigns designed around measurable business goals. From keyword research and campaign structure to ad copy, bidding, landing pages, and conversion tracking, our SEM specialists focus your advertising budget on traffic that can drive real results.",
 
         description:
-            "We create and optimize paid search campaigns that connect your business with high-intent customers and turn advertising spend into measurable growth.",
+            "We create and optimize paid search campaigns that connect your business with high intent customers and turn advertising spend into measurable growth.",
 
         heroImage: "/assets/sem-services.avif",
         showcaseImage: "/assets/sem-services-1.avif",
@@ -1034,8 +910,8 @@ export const services = [
         accent: "bg-[#f3e8ff]",
 
         highlights: [
-            "High-intent paid search",
-            "Conversion-focused campaigns",
+            "High intent paid search",
+            "Conversion focused campaigns",
             "Strategic keyword targeting",
             "Continuous performance optimization",
         ],
@@ -1098,7 +974,7 @@ export const services = [
             "SaaS",
             "Retail",
             "B2B",
-            "E-commerce",
+            "e commerce",
             "Professional Services",
         ],
 
@@ -1109,7 +985,7 @@ export const services = [
                     "Paid search puts your business in front of relevant users without waiting for organic rankings to develop.",
             },
             {
-                title: "High-intent traffic",
+                title: "High intent traffic",
                 text:
                     "Keyword targeting helps you reach people actively searching for products, services or solutions like yours.",
             },
@@ -1147,10 +1023,10 @@ export const services = [
         category: "Design",
 
         excerpt:
-            "Enhance user satisfaction with our intuitive UI/UX designservices. We create engaging interfaces and seamlessuser experiences through user-centered design,wireframing, prototyping, and usability testing. Our UXdesign agency focuses on improving interaction, retention,and overall digital experience.",
+            "Enhance user satisfaction with our intuitive UI/UX design services. We create engaging interfaces and seamless user experiences through user centered design,wire framing, prototyping, and usability testing. Our UXdesign agency focuses on improving interaction, retention,and overall digital experience.",
 
         description:
-            "We create scalable e-commerce platforms that combine premium design, simple management and conversion-focused customer journeys.",
+            "We create scalable e commerce platforms that combine premium design, simple management and conversion focused customer journeys.",
 
         heroImage: "/assets/ui-services.jpg",
         showcaseImage: "/assets/ui-services-1.jpg",
@@ -1168,20 +1044,20 @@ export const services = [
             eyebrow: "Commerce designed for growth",
             title: "Turn product discovery into confident purchases.",
             text:
-                "From navigation and product pages to checkout and retention, we create e-commerce experiences around customer behavior and business growth.",
+                "From navigation and product pages to checkout and retention, we create e commerce experiences around customer behavior and business growth.",
         },
 
         platforms: [
             {
                 title: "Web Design Services",
                 description:
-                    "We design conversion-focused websites that are responsive, accessible, and purpose-built. Whether it’s a corporate site, e-commerce storefront, or product landing page, our UI/UX team ensures your digital presence align switch your brand and user goals.",
+                    "We design conversion focused websites that are responsive, accessible, and purpose built. Whether it’s a corporate site, e commerce storefront, or product landing page, our UI/UX team ensures your digital presence align switch your brand and user goals.",
                 image: "/assets/ui-services-2.jpg",
             },
             {
                 title: "Mobile Design Services",
                 description:
-                    "From native iOS and Android to hybrid apps, we design seamless mobile experiences. Our mobile UX/UI design services prioritize touch-friendly navigation, device responsiveness, and visual clarity to keep users engaged on the go.",
+                    "From native iOS and Android to hybrid apps, we design seamless mobile experiences. Our mobile UX/UI design services prioritize touch friendly navigation, device responsiveness, and visual clarity to keep users engaged on the go.",
                 image: "/assets/ui-services-3.jpg",
             },
         ],
@@ -1246,7 +1122,7 @@ export const services = [
             {
                 question: "Do you provide UI/UX design for web and mobile apps?",
                 answer:
-                    "Yes. We design intuitive and user-friendly interfaces for websites, web applications, mobile apps and digital products.",
+                    "Yes. We design intuitive and user friendly interfaces for websites, web applications, mobile apps and digital products.",
             },
             {
                 question: "Can you redesign an existing product interface?",
@@ -1254,9 +1130,9 @@ export const services = [
                     "Yes. We can improve your existing UI/UX by refining user flows, layouts, interactions, visual consistency and overall usability.",
             },
             {
-                question: "Do you create wireframes and prototypes?",
+                question: "Do you create wire frames and prototypes?",
                 answer:
-                    "Yes. We create wireframes and interactive prototypes to visualize user journeys, validate ideas and refine the experience before development.",
+                    "Yes. We create wire frames and interactive prototypes to visualize user journeys, validate ideas and refine the experience before development.",
             },
             {
                 question: "Can you create a design system for our product?",
@@ -1354,7 +1230,7 @@ export const services = [
             "SaaS",
             "Retail",
             "Food & Beverage",
-            "E-commerce",
+            "e commerce",
             "Professional Services",
         ],
 

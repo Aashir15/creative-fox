@@ -108,7 +108,7 @@ export default function Footer() {
 
                             <p className="mt-5 max-w-md text-sm leading-7 text-grey sm:text-base">
                                 Creative Fox creates thoughtful digital experiences through
-                                strategy, branding, design, development, and growth-focused
+                                strategy, branding, design, development, and growth focused
                                 marketing.
                             </p>
 

@@ -225,20 +225,26 @@ export default function Hero() {
             <div className="relative mt-7">
                 <div
                     ref={imageRef}
-                    className="
-        relative overflow-hidden rounded-[22px]
-        will-change-transform
-        sm:rounded-[28px]
-    "
+                    className="relative h-67 overflow-hidden rounded-[22px] will-change-transform sm:h-107 sm:rounded-[28px] lg:h-125"
                 >
+                    {/* Mobile image */}
                     <Image
-                        src="/assets/Leading-Full-Service.jpeg"
+                        src="/assets/Leading-Full-Service-Mobile.jpeg"
                         alt="Digital marketing team working together"
-                        width={1600}
-                        height={650}
+                        fill
+                        priority
+                        sizes="100vw"
+                        className=" sm:hidden"
+                    />
+
+                    {/* Desktop image */}
+                    <Image
+                        src="/assets/Leading-Full-Services.jpeg"
+                        alt="Digital marketing team working together"
+                        fill
                         priority
                         sizes="(max-width: 640px) 100vw, (max-width: 1024px) 95vw, 1400px"
-                        className="h-auto w-full"
+                        className="hidden object-cover sm:block"
                     />
 
                     <div className="pointer-events-none absolute inset-0 bg-linear-to-t from-black/20 via-transparent to-transparent" />

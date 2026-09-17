@@ -71,7 +71,7 @@ export default function ServicePage() {
 
                     <div className="absolute inset-x-4 bottom-5 max-w-lg sm:inset-x-auto sm:bottom-10 sm:left-10">
                         <p className="text-xs font-medium uppercase tracking-[0.15em] text-white/65 sm:text-sm">
-                            Full-service digital agency
+                            Full service digital agency
                         </p>
 
                         <p className="mt-3 text-2xl font-medium leading-tight tracking-[-0.035em] text-white sm:text-4xl">

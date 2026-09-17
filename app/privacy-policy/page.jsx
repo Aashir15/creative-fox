@@ -100,7 +100,7 @@ const sections = [
                 We may use cookies and similar technologies for essential
                 website functions, analytics, preferences and advertising,
                 depending on the tools configured on our website. Where
-                required, non-essential cookies should be used only after the
+                required, non essential cookies should be used only after the
                 appropriate consent choice. See our Cookie Policy for more
                 information.
             </p>
@@ -197,10 +197,10 @@ const sections = [
         ),
     },
     {
-        title: "Third-Party Links",
+        title: "Third Party Links",
         content: (
             <p>
-                Our website may link to third-party websites or services. Their
+                Our website may link to third party websites or services. Their
                 privacy practices are governed by their own policies, not this
                 Privacy Policy.
             </p>
