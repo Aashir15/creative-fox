@@ -323,7 +323,7 @@ export default function Header() {
                             className="
                                 flex w-full items-center justify-between
                                 rounded-xl px-4 py-3.5
-                                text-left text-sm font-medium 
+                                text-left text-sm font-semibold
                                 transition-all duration-300"
                         >
                             Services
@@ -432,7 +432,7 @@ function NavLink({ label, href }) {
             href={href}
             className="
                 rounded-full px-4 py-2
-                text-sm font-medium text-black/65
+                text-sm font-semibold text-black/65
                 transition-all duration-300
                 hover:bg-black/5 hover:text-black
             "
@@ -449,7 +449,7 @@ function MobileNavLink({ label, href, onClick }) {
             onClick={onClick}
             className="
                 block rounded-xl px-4 py-3.5
-                text-sm font-medium text-black/70
+                text-sm font-semibold text-black/70
                 transition-all duration-300
                 hover:bg-black/5 hover:text-black
             "

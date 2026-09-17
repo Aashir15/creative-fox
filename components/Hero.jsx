@@ -229,7 +229,7 @@ export default function Hero() {
                 >
                     {/* Mobile image */}
                     <Image
-                        src="/assets/Leading-Full-Service-Mobile.jpeg"
+                        src="/assets/Leading-Full-Service-Mobiles.jpeg"
                         alt="Digital marketing team working together"
                         fill
                         priority
