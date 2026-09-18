@@ -131,7 +131,7 @@ export default function Header() {
                                 onFocus={() => setServicesOpen(true)}
                                 className="
         flex items-center gap-1 rounded-full px-4 py-2
-        text-sm font-medium text-black/65
+        text-sm font-semibold text-black/65
         transition-all duration-300
         hover:bg-black/5 hover:text-black
     "
@@ -313,29 +313,32 @@ export default function Header() {
                             />
                         ))}
 
-                        <button
-                            type="button"
+                        <Link
+                            href="/services"
                             aria-expanded={mobileServicesOpen}
                             aria-controls="mobile-services"
-                            onClick={() =>
-                                setMobileServicesOpen((current) => !current)
-                            }
+                            onClick={(e) => {
+                                e.preventDefault();
+                                setMobileServicesOpen((current) => !current);
+                            }}
                             className="
-                                flex w-full items-center justify-between
-                                rounded-xl px-4 py-3.5
-                                text-left text-sm font-semibold
-                                transition-all duration-300"
+        flex w-full items-center justify-between
+        rounded-xl px-4 py-3.5
+        text-sm font-semibold text-black/70
+        transition-all duration-300
+        hover:bg-black/5 hover:text-black
+    "
                         >
-                            Services
+                            <span>Services</span>
 
                             <ChevronDown
                                 size={17}
                                 className={`
-                                    transition-transform duration-300
-                                    ${mobileServicesOpen ? "rotate-180" : ""}
-                                `}
+            transition-transform duration-300
+            ${mobileServicesOpen ? "rotate-180" : ""}
+        `}
                             />
-                        </button>
+                        </Link>
 
                         <div
                             id="mobile-services"
